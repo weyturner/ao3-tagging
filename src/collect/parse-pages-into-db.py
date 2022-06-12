@@ -24,8 +24,8 @@
 #   Page size (bytes): 4096
 #   Exit status: 0
 # If speed matters then there are abundant opportunities to improve that,
-# this programmer chose clarity and simplcity of expression over speed to allow a
-# tighter data science process.
+# this programmer chose clarity and simplcity of expression over speed to allow
+# a tighter data science process.
 #
 # One of the tasks of this program is to make data normal and canonical.
 #
@@ -46,6 +46,11 @@
 # sorting; in our example, the canonical form is the sorted list of
 # ['A', 'B']; the form ['B', 'A'] is non-canonical, not permitted, and
 # is corrected by altering the form to be in sorted order.
+#
+# Run as follows:
+#
+# cd ao3-tagging
+# src/collect/parse-pages-into-db.py -o data/database/20220612.yaml data/raw/star-trek-deep-space-nine-20220601/*.html
 #
 # Copyright © Wey Turner, 2022.
 # SPDX-License-Identifier: GPL-2.0-only
@@ -640,12 +645,19 @@ def parse_work(work):
     except AttributeError:
         data['bookmarks'] = int(0)
 
-    # TODO
-    # data['chapters'] = work.find('dd', class_='chapters').a.text
-    # is wrong.
-    # The split needs to generate data
-    # chapter: 1
-    # totalchapters: 2
+    # Extract chapters
+    # <dd class="chapters">
+    #  <a href="/works/39026430/chapters/97673250">
+    #   2
+    #  </a>
+    #   /2
+    #  </dd>
+    # Form can be
+    #  1/2 or 1/?
+    l = work.find('dd', class_='chapters').text.split('/')
+    data['chapter'] = int(l[0])
+    if l[1] != '?':
+        data['chapters'] = int(l[1])
 
     # Count of downloads.
     data['hits'] = int(work.find('dd', class_='hits').text.replace(',', ''))
@@ -663,6 +675,7 @@ def database_key(d):
 if __name__ == "__main__":
 
     args = command_line_args()
+    parsedate = str(datetime.datetime.now())
 
     # Initialise database, from an existing file to update it,
     # otherwise empty.
@@ -689,7 +702,13 @@ if __name__ == "__main__":
         # Each work is surrounded by a List Item <li class="work">.
         # Add the works' attributes to the database.
         for work in works.find_all('li', class_='work'):
-            database.append(parse_work(work))
+            # Extract data from webpage
+            data = parse_work(work)
+            # Add metadata about this run
+            data['filename'] = filename
+            data['parsedate'] = parsedate
+            # Add to database
+            database.append(data)
 
     # Write database of works.
     # We do this in a canonical order (ascending work_id) to make
