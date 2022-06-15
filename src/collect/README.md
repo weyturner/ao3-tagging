@@ -10,6 +10,8 @@ The following are notes used during the development of these programs.
 collect-pages.py
 ----------------
 
+Retrieves webpages from Archive of Our Own for a particular tag.
+
 Install these packages for Debian with `sudo apt-get install`:
 
  * python3-bs4
@@ -21,6 +23,34 @@ or these packages for Fedora with `sudo dnf install`:
  * python3-beautifulsoup4
 
  * python3-pyyaml
+
+
+parse-pages-into-db.py
+----------------------
+
+Parses retreived webpages into a YAML file.
+
+Install these packages for Debian with `sudo apt-get install`:
+
+ * python3-bs4
+
+ * python3-yaml
+
+or these packages for Fedora with `sudo dnf install`:
+
+ * python3-beautifulsoup4
+
+ * python3-pyyaml
+
+
+clean-db-deep-space-nine.py
+---------------------------
+
+Uses knowledge of Deep Space Nine to clean the database.
+
+
+Programming notes
+=================
 
 
 Downloading tags
