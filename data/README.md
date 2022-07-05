@@ -29,3 +29,36 @@ data/testdata/
 
 Various files used for creating these programs.
 
+Variable names
+--------------
+
+author
+bookmarks
+categories (list)
+chapter
+chapters
+characters (list)
+comments
+complete
+fandoms (list)
+filename
+freeforms (list)
+hits
+id
+kudos
+language
+parsedate
+publicationdate
+rating
+relationships (list)
+relationshipspair (list)
+relationshipspairslash (list)
+relationshipspairamp (list)
+relationshipspax (list)
+relationshipspaxslash (list)
+relationshipspaxamp (list)
+summary
+title
+userid
+warnings
+words

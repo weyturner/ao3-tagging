@@ -15,7 +15,9 @@ being added.
 Create the files.
 
 ```
-git push origin main
+git add...
+git commit ...
+git push origin <branch>
 ```
 
 That will give a URL, click on it to create a "Pull request".
