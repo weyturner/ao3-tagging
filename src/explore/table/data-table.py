@@ -71,7 +71,7 @@ if __name__ == "__main__":
         rows.append(d)
 
     # Sort by first field
-    rows.sort(key = lambda x:x[0])
+    rows.sort(key = lambda x:'' if x[0] is None else x[0])
 
     if args.output_csv:
         with open(args.output_csv, 'w', newline='', encoding='utf-8') as csv_f:
