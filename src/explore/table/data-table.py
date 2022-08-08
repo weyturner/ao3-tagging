@@ -36,7 +36,6 @@ def command_line_args():
                     help='Database to load')
     ap.add_argument('--header',
                     default=True,
-                    action=argparse.BooleanOptionalAction,
                     help='Header line with variable names')
     ap.add_argument('-o',
                     '--output-csv',
