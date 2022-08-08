@@ -4,13 +4,104 @@ src/collect
 Collect data from An Archive of Our Own and store it in a database in
 data/.
 
-The following are notes used during the development of these programs.
+Each of the programs used prints it's full command-line parameters if
+run with the `--help` option.
+
+The processing steps are as follows:
 
 
-collect-pages.py
-----------------
+src/collect/collect-pages.py
+----------------------------
 
-Retrieves webpages from Archive of Our Own for a particular tag.
+Retrieves webpages from Archive of Our Own for a particular tag. The
+tag `Star Trek: Deep Space Nine` is used if no other tag is supplied
+using the `--tag` parameter.
+
+The retreived web pages are saved where indicated by the `--outprefix`
+parameter. Use the directory `data/raw/` when doing a production run.
+
+Each retreived web page is named
+`<tag>-<date>-<time>-<count>-index.html`.  These saved web pages are
+used for further processing.
+
+Metadata about each retrieved web page is stored into
+`<tag>-<date>-<time>-<count>-meta.yaml`. These files are not used for
+further processing but are retained for the repeatability of the
+experiment.
+
+The AO3 website classifies as misuse client IP addresses which
+retrieve large numbers of web pages in a short period. This program
+limits itself to retreiving six pages per minute (ie, a page per ten
+seconds). That is below what the site administrators say in forum
+postings is the trigger for classification as misuse. Different page
+retreival rates can be used with the ``--rate-limit`
+parameter. Different rates have not been tested: being added to the
+AO3 blocklist would impede research so this risk was not taken.
+
+The program depends on the prior installation of these Python
+libraries; for Debian with `sudo apt-get install`:
+
+ * python3-bs4
+
+ * python3-yaml
+
+or for Fedora with `sudo dnf install`:
+
+ * python3-beautifulsoup4
+
+ * python3-pyyaml
+
+The program is typically run with
+
+```
+src/collect/collect-pages.py --outprefix data/raw/star-trek-deep-space-nine-20220601/
+```
+
+
+src/collect/parse-pages-into-db.py
+----------------------------------
+
+Parses the retreived web pages into a YAML file.
+
+Data fields are cleaned. This uses only knowledge of An Archive of Our
+Own. For example, AO3 specifies languages using the native text of
+that language (English, Français, etc); this is difficult to process
+and so is converted to ISO language codes (en, fr, etc). Similarly,
+many numerical fields are presented using commas (1,000) and these are
+converted to a more usual integer format (1000). Fields with multiple
+values are converted to a YAML list.
+
+The program produces a number of fields which do not exist in the web
+page. This is to make processing be downstream analsysis much
+easier. These fields do not replace fields containing the exact data
+from the web page, so the original data is always available to check
+for processing errors.
+
+The fields added for works are:
+
+ * `relationshippax` (a list) -- people mentioned in `relationships`.
+
+ * `relationshippaxslash` (a list) -- people mentioned in
+   `relationships` in the form "A/B" (that is, the convention to
+   indicate a sexual relationship).
+
+ * `relationshippaxamp` (a list) -- people mentioned in
+   `relationships` in the form "A & B" (that is, the convention to
+   indicate a non-sexual relationship).
+
+ * `relationshippair` (a list) -- `relationships`, but modified so
+   that "A/B" and "B/A" always appear in the same order, namely
+   "A/B". Similarly, "A & B" and "B & A" always appear in the same
+   order, namely "A & B".
+
+ * `relationshippairslash` (a list) -- as for `relationshippair`, but
+   only "A/B" (sexual) relationships.
+
+ * `relationshippairamp` (a list) -- as for `relationshippair`, but
+   only "A & B" (non-sexual) relationships.
+
+The data is ordered by `id`. That is a unique ascending number for
+each work.
 
 Install these packages for Debian with `sudo apt-get install`:
 
@@ -24,29 +115,187 @@ or these packages for Fedora with `sudo dnf install`:
 
  * python3-pyyaml
 
+The program is typically run with:
 
-parse-pages-into-db.py
-----------------------
-
-Parses retreived webpages into a YAML file.
-
-Install these packages for Debian with `sudo apt-get install`:
-
- * python3-bs4
-
- * python3-yaml
-
-or these packages for Fedora with `sudo dnf install`:
-
- * python3-beautifulsoup4
-
- * python3-pyyaml
+```
+src/collect/parse-pages-into-db.py --output-database data/database/20220612.yaml data/raw/star-trek-deep-space-nine-20220601/*.html
+```
 
 
-clean-db-deep-space-nine.py
----------------------------
+src/collect/clean-db-deep-space-nine.py
+---------------------------------------
 
-Uses knowledge of Deep Space Nine to clean the database.
+This program uses extensive knowledge of Deep Space Nine to clean the
+database.
+
+That cleaning has several goals:
+
+ * Some phrases present in a name always indicate a non-cast
+   character. These immediately cause a mapping to `non-cast`. eg:
+   "(original character)". See `zap_dict` in the program.
+
+ * Some phrases in names are redundant for identification, but are
+   guides for people wanting to select a story to read. These guides
+   are often in parenthesis. eg: "(one-sided)" or "(mentioned)". These
+   phrases are removed from the name. See `delete_list` in the
+   program.
+
+ * Some characters have multiple names. These are mapped to a single
+   normalised name. That name is typically "<firstname> <lastname>",
+   although in a television series with diverse cultures and species
+   that's not always the normalised name. eg: "Doctor Julian Bashir"
+   to "Julian Bashir". See `synonym_dict` in the program.
+
+ * Some names have typographical errors, these are corrected by
+   mapping them to the normalised name. eg: "Torah Naprem" to "Tora
+   Naprem". Again, see `synonym_dict` in the program.
+
+ * Non-cast characters are mapped to the name `non-cast`. This is a
+   way to deal with the large number of characters original to a
+   particular author, or with out-of-universe cross-over characters
+   (eg, Dr Who). A list of all the known cast members was iteratively
+   built, and names not in this list are converted to `non-cast`. See
+   `known set` in the program.
+
+As a check, the characters encountered which are mapped to `non-cast`
+are printed (to the screen, aka `stdout`). This was the basis for the
+iterative construction of `known_set`.
+
+Once the names are changed, these fields are added:
+
+ * `charactersclean` (a list) -- originally from `characters`.
+
+ * `cleandate` (a date) -- the time and date the program was run, for
+   data traceability.
+
+and these fields are updated:
+
+ * `relationshippax` (a list) -- as above, originally from `relationships`.
+
+ * `relationshippaxslash` (a list) -- as above, originally from
+   `relationships`.
+
+ * `relationshippaxamp` (a list) -- as above, originally from
+   `relationships`.
+
+ * `relationshippair` (a list) -- as above, originally from
+   `relationships`.
+
+ * `relationshippairslash` (a list) -- as above, originally from
+   `relationships`.
+
+ * `relationshippairamp` (a list) -- as above, originally from
+   `relationships`.
+
+No libraries are required beyond a typical Python3 installation.
+
+Typical command is:
+
+```
+src/collect/clean-db-deep-space-nine.py --input-database data/database/20220612.yaml --output-database data/database/20220612-clean.yaml > data/database/20220612-stdout.txt
+```
+
+
+src/explore/table/data-fields.py
+--------------------------------
+
+This prints all the field names present in the YAML database.
+
+This is useful if you want to export all the fields to a .CSV file
+using the data-table.py utility described below.
+
+Typical command is:
+
+```
+src/explore/table/data-fields.py --input-database data/database/20220612-clean.yaml
+```
+
+and the output looks like this:
+
+```
+author bookmarks categories chapter chapters characters charactersclean cleandate comments complete fandoms filename freeforms hits id kudos language parsedate publicationdate rating relationships relationshipspair relationshipspairamp relationshipspairslash relationshipspax relationshipspaxamp relationshipspaxslash summary title userid warnings words
+```
+
+
+src/explore/table/data-table.py
+-------------------------------
+
+This exports fields in the YAML database to a .CSV file.
+
+.CSV files are traditionally the input to statistical processing, so
+the .CSV file marks the boundary from the data science steps of
+collection and cleaning to the data science steps of visualisation and
+statistics.
+
+Different CSV files might need to be generated for different
+statistical products:
+
+ * Some don't like multi-valued fields
+
+ * Some don't like headings, some do. See the `--header` and
+   `--no-header` command line options to data-table.py.
+
+ * Some are tight on memory, and so irrelevant fields can be not exported.
+
+Here's how to export just the author and title:
+
+```
+src/explore/table/data-table.py --input-database data/database/20220612-clean.yaml --output-csv example.csv author title
+```
+
+Note that some statistical packages want the uniqiue key in the first
+column of the exported data. That is, the `id` field listed as the
+first variable to export.
+
+```
+src/explore/table/data-table.py --input-database data/database/20220612-clean.yaml --output-csv example.csv id author title
+```
+
+In conjuction with data-fields.py to list all the field names, all the
+fields of the YAML database can be exported to the CSV file.
+
+Here's how to do that in a single Unix command, including moving `id`
+to the front of the list of field names.
+
+ * data-fields.py lists all the field names.
+
+ * the stream editor *sed* deletes `id` (sed's `s` command "substitutes
+   ` id ` with ` `"), leaving the other field names alone.
+
+ * *xargs* ("expand arguments") moves the field names printed by
+   data-fields.py into command line parameters to data-table.py.
+
+ * data-table.py reads the YAML database, matches all the fields in
+   its command line (which is *all* the fields), and exports
+   them. `id` is listed as the first parameter to data-table.py, and
+   so is the first column in the .CSV file.
+
+```
+src/explore/table/data-fields.py  \
+  --input-database data/database/20220612-clean.yaml |  \
+sed 's/ id / /' |  \
+xargs src/explore/table/data-table.py  \
+  --input-database data/database/20220612-clean.yaml  \
+  --output-csv data/database/20220612.csv \
+  id
+```
+
+
+Open issues
+-----------
+
+It's unclear when to delete out-of-scope records. This might best be
+done at the visualisation stage, or best be done prior to generating
+the .CSV.
+
+If the second then add a new option to data-table.py. Say `--match` to
+allow a Python expression which must be `True` for a field to be
+exported. Might also be handy to have a `--no-match`.
+
+Multi-value fields -- like the many relationship fields -- are not
+handled well by some statistical languages. So that might require some
+additional work so that their individual needs are met.  Many AO3
+fields are multi-value fields.
 
 
 Programming notes
@@ -403,7 +652,7 @@ It takes 27 hours to download the 10,000 stories and abide by the robots.txt
 Prior work
 ----------
 
-For a real-time sumary see:
+For a real-time summary see:
 
 https://github.com/topics/archive-of-our-own
 
