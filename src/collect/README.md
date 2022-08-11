@@ -192,7 +192,7 @@ No libraries are required beyond a typical Python3 installation.
 Typical command is:
 
 ```
-src/collect/clean-db-deep-space-nine.py --input-database data/database/20220612.yaml --output-database data/database/20220612-clean.yaml > data/database/20220612-stdout.txt
+src/collect/clean-db-deep-space-nine.py --input-database data/database/20220612.yaml --output-database data/database/20220612-clean.yaml > data/database/20220612-clean-stdout.txt
 ```
 
 
@@ -280,22 +280,47 @@ xargs src/explore/table/data-table.py  \
   id
 ```
 
+explore/pandas/load_data_table.py
+---------------------------------
+
+Use this code in a Jupyter notebook to load the .CSV file in
+data/database/ into Jupyter.
+
+As well as loading the data, this assigns the correct Pandas datatypes
+and also creates categories for the columns which need those.
+
+After this, the next steps are to do whatever data reduction or
+selection is needed, and then to graph the data.
+
 
 Open issues
 -----------
 
-It's unclear when to delete out-of-scope records. This might best be
-done at the visualisation stage, or best be done prior to generating
-the .CSV.
-
-If the second then add a new option to data-table.py. Say `--match` to
-allow a Python expression which must be `True` for a field to be
-exported. Might also be handy to have a `--no-match`.
-
-Multi-value fields -- like the many relationship fields -- are not
+*Multi-value fields* -- like the many relationship fields -- are not
 handled well by some statistical languages. So that might require some
 additional work so that their individual needs are met.  Many AO3
 fields are multi-value fields.
+
+
+Resolved issues
+---------------
+
+*Out of scope records* should be removed at the analysis stage using
+Pandas, as the code in Pandas for data reduction is concise. Here's
+the typical data reduction:
+
+```
+# Only publications after 2010
+df['publicationdate'] = pd.to_datetime(df['publicationdate'])
+dawn = pd.Timestamp('2010-01-01')
+df = df[df['publicationdate'] >= dawn]
+
+# Only English
+df = df[df['language'] == 'en']
+
+# Complete works
+df = df[df['complete'] == True]
+```
 
 
 Programming notes
