@@ -110,6 +110,25 @@ dtypes = { 'id': 'int64',
 df = pd.read_csv('data/database/20220612.csv', dtype=dtypes)
 df.set_index('id', inplace=True)
 
+# Convert some strings to lists
+def strtolist(s):
+    if pd.isna(s):
+        return list()
+    else:
+        return eval(s)
+
+df['categories'] = df['categories'].apply(strtolist)
+df['characters'] = df['characters'].apply(strtolist)
+df['charactersclean'] = df['charactersclean'].apply(strtolist)
+df['fandoms'] = df['fandoms'].apply(strtolist)
+df['freeforms'] = df['freeforms'].apply(strtolist)
+df['relationships'] = df['relationships'].apply(strtolist)
+df['relationshipspair'] = df['relationshipspair'].apply(strtolist)
+df['relationshipspairslash'] = df['relationshipspairslash'].apply(strtolist)
+df['relationshipspax'] = df['relationshipspax'].apply(strtolist)
+df['relationshipspaxslash'] = df['relationshipspaxslash'].apply(strtolist)
+df['warnings'] = df['warnings'].apply(strtolist)
+
 # Convert to pandas datetime
 # Only publications after 2010
 df['publicationdate'] = pd.to_datetime(df['publicationdate'])
@@ -123,10 +142,12 @@ df = df[df['language'] == 'en']
 df = df[df['complete'] == True]
 
 
+
+
 # Example plot
 
-fig = sns.catplot(x='kudos', kind='count', orient='v', data=df)
-fig
+# fig = sns.catplot(x='kudos', kind='count', orient='v', data=df)
+# fig
 
 # sns.FacetGrid.savefig(fig, 'language.svg', format='svg', transparent=True)
 # plt.pyplot.show()
