@@ -203,7 +203,6 @@ class Ds9cast:
 
     # List of fanfic characters in canonical names
     known_set = {
-        "Athra Dukat's wife",
         "Boq'ta",
         "Ch'Targh",
         "Cing'ta",
@@ -302,9 +301,7 @@ class Ds9cast:
         'Gor',
         'Gowron',
         'Grilka',
-        'Grilka',
         'Grimp',
-        'Gul Dukat',
         'Gul Jasad',
         'Gul Marratt',
         'Gul Revok',
@@ -324,7 +321,6 @@ class Ds9cast:
         'Janel Tigan',
         'Jaro Essa',
         'Jas Holza',
-        'Jemhadar',
         'Jennifer Sisko',
         'Joran Dax',
         'Joseph Sisko',
@@ -344,7 +340,6 @@ class Ds9cast:
         'Kelas Parmak',
         'Keldar',
         'Kesha',
-        'Kilana'
         'Kilana',
         'Kimara Cretak',
         'Kira Meru',
@@ -386,7 +381,6 @@ class Ds9cast:
         'Meya Rejal',
         'Michael Eddington',
         'Mila Garak',
-        'Molly Hooper',
         'Mora Pol',
         'Morn',
         'Mullibok',
@@ -420,7 +414,6 @@ class Ds9cast:
         'Renhol',
         'Richard Bashir',
         'Rionoj',
-        'Ro Laren',
         'Rom',
         'Sakal Damar',
         'Sarah Sisko',
@@ -445,7 +438,6 @@ class Ds9cast:
         'Vance',
         'Vash',
         'Vedek Nane',
-        'Verad Dax',
         'Verad',
         'Vic Fontaine',
         'Vreenak',
@@ -465,6 +457,7 @@ class Ds9cast:
 
     # Cast members known by other names
     synonym_dict = {
+        "Athra Dukat's wife": 'Athra Dukat',
         "Benjamin Sisko's Authoritative Voice": 'Benjamin Sisko',
         "Ch’targh": "Ch'Targh",
         "Clone!Miles O'Brien": "Miles O'Brien",
@@ -782,6 +775,7 @@ class Ds9cast:
         'Vedek Antos Bareil': 'Bareil Antos',
         'Vedek Bariel': 'Bariel Antos',
         'Vedik Bariel': 'Bariel Antos',    # typo
+        'Verad Dax': 'Verad',
         'Weyoun 1': 'Weyoun',
         'Weyoun 10': 'Weyoun',
         'Weyoun 2': 'Weyoun',
