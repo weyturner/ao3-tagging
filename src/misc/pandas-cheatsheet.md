@@ -33,6 +33,10 @@ df = df[df['language'] == 'en']
 df = df[df['complete'] == True]
 ```
 
+Open base.ipynb by navigating Jupyter to the src/explore/notebooks/
+directory and then clicking on base.ipynb to load it. Doing that has
+the path to src/data/datbase/*.csv correct.
+
 When you open base.ipynb then right away do File | Save As a different
 filename so that your changes are saved elsewhere.
 
@@ -162,6 +166,13 @@ or mutiple column names:
 new_df = df.drop(['cleandate', 'summary'], axis=1)
 ```
 
+If you want to narrow to just one column, say `charactersclean`, then
+do this:
+
+```
+new_df = df[['charactersclean']]
+```
+
 
 Looking at a dataframe
 ----------------------
@@ -174,9 +185,17 @@ it:
 new_df
 ```
 
-If you want to see the whote thing:
+If you want to see the whole thing:
 
 ```
+print(new_df)
+```
+
+Sometimes showing only part of the dataframe is annoying. Set the
+maximum number of rows displayed to a value which suits you:
+
+```
+pd.options.display.max_rows = 999
 print(new_df)
 ```
 
@@ -197,6 +216,13 @@ If you want to save it to a particular place then Unix filenames use
 folder. So if you want to save it to your home folder then say
 `~/name-of-file.csv`. Or even a folder you made for this project, say,
 `~/ao3-tagging/name-of-file.csv`.
+
+If you don't want the first row to be a heading with the variable
+names then:
+
+```
+new_df.to_csv('new_df.csv', header=None)
+```
 
 
 Exploding list fields
@@ -233,6 +259,23 @@ for index, charactersclean in zip(df.index, df['charactersclean']):
 Excel is likely to be much happier with this format, but you'll
 probably need to create a .CSV per field which is expanded (you can
 imagine the size if we expanded every field all at one).
+
+
+Frequency counting
+------------------
+
+Pandas makes frequency counts simple. Here's a new dataframe `freq`
+containing the frequency counts of the values in the column
+`kudos` in the dataframe `new_df`.
+
+```
+freq = new_df['kudos'].value_counts()
+```
+
+If you want the frequencies of fields which contain lists, then
+explode that field, as in the section done above.
+
+Reference: https://stackoverflow.com/questions/36004976/count-frequency-of-values-in-pandas-dataframe-column
 
 
 Some reminders
