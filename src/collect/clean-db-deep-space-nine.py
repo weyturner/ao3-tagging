@@ -62,6 +62,9 @@ import sys
 # Space Nine.
 
 
+def tween(seq, sep):
+    return functools.reduce(lambda r,v: r+[sep,v], seq[1:], seq[:1])
+
 class Ds9cast:
     NON_CAST = 'non-cast'
 
@@ -902,14 +905,29 @@ class Ds9cast:
 
         # Normalise relationship
         pair_l = [s.strip() for s in re.split('[/&]', pair)]
-        pair_l[0] = self.normal_name(pair_l[0])
-        pair_l[1] = self.normal_name(pair_l[1])
+        for i, value in enumerate(pair_l):
+            pair_l[i] = self.normal_name(value)
         pair_l.sort()
 
         if style == 'amp':
-            pair = '{} & {}'.format(pair_l[0], pair_l[1])
+            pair = ' '.join(tween(pair_l, '&'))
         elif style == 'slash':
-            pair = '{}/{}'.format(pair_l[0], pair_l[1])
+            pair = ''.join(tween(pair_l, '/'))
+        else:
+            print('Error: normal_pair() unexpected input: {}'.format(pair))
+            pair = ' '.join(tween(pair_l, '?'))
+            print('       normal_pair() returned: {}'.format(pair))
+
+        # Special case: non-cast/non-cast/non-cast/... is non-cast/non-cast
+        #
+        # See if all the items in the list are the same by converting the list to a set.
+        # If the set has one item, then all the list elements were identical.
+        if len(set(pair_l)) == 1:
+            if pair_l[0] == 'non-cast':
+                if style == 'amp':
+                    pair = 'non-cast & non-cast'
+                if style == 'slash':
+                    pair = 'non-cast/non-cast'
         return pair
 
 
