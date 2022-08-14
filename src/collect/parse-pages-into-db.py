@@ -522,13 +522,18 @@ def parse_work(work):
             # Split the characters in the relationships
             r = r.replace('(implied)', '')
             r = r.replace('(unrequited)', '')
+            # The first & or / defines the type of relationship
             if r.find('&') > -1:
                 style = 'amp'
             elif r.find('/') > -1:
                 style = 'slash'
             else:
                 style = 'other'
+            # Convert string to list of strings at / or &
             pair = [s.strip() for s in re.split('[/&]', r)]
+            # Remove empty strings, caused by leading or trailing / or &
+            pair = list(filter(None, pair))
+            # Normlise order
             pair.sort()
 
             # Make lists of people involved.

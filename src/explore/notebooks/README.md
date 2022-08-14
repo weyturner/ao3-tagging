@@ -21,10 +21,23 @@ Utility notebooks
 base.ipynb
 ----------
 
-This contains a program to load the dataframe `df` from the main .CSV
-file, adjust the datatypes on the dataframe, and narrow the dataframe
-to completed works after 2010.
+This contains an outline program.
 
+
+ds9.py
+------
+
+This Python module loads the database from the current .CSV file,
+adjust the datatypes on the dataframe, and narrow the dataframe to
+completed works in English published after 2010.
+
+Typical use is:
+
+```
+import pandas
+import ds9
+df = ds9.df()
+```
 
 character-attributes.ipynb
 --------------------------
