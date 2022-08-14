@@ -1,323 +1,399 @@
 relationshipspairslash,M/M,Gen,F/M,F/F,Multi,No category,Other,Total
-Elim Garak/Julian Bashir,3551,324,200,81,152,104,53,4465
-Jadzia Dax/Kira Nerys,46,39,24,369,22,2,5,507
+Elim Garak/Julian Bashir,3525,315,197,76,127,104,51,4395
+Jadzia Dax/Kira Nerys,45,37,23,366,13,2,4,490
 Odo/Quark,338,37,26,11,25,3,14,454
-non-cast/non-cast,134,71,143,64,52,8,25,497
-Kira Nerys/Odo,42,76,179,19,27,10,31,384
-Julian Bashir/non-cast,110,15,40,11,15,5,12,208
+non-cast/non-cast,136,72,145,66,54,9,27,509
+Kira Nerys/Odo,42,76,178,18,25,10,31,380
 Jadzia Dax/Worf,45,40,92,16,22,5,2,222
-Keiko O'Brien/Miles O'Brien,59,45,73,20,28,0,3,228
+Julian Bashir/non-cast,109,15,40,11,13,5,12,205
+Keiko O'Brien/Miles O'Brien,58,45,73,20,28,0,3,227
 Corat Damar/Weyoun,118,12,6,7,8,0,30,181
-Elim Garak/Kelas Parmak,87,12,7,7,16,1,33,163
+Elim Garak/Kelas Parmak,85,12,7,7,15,1,33,160
 Ezri Dax/Julian Bashir,48,23,72,13,15,3,5,179
 Julian Bashir/Miles O'Brien,87,9,21,9,20,0,1,147
 Elim Garak/non-cast,58,12,26,3,9,1,4,113
 Jake Sisko/Nog,76,16,10,6,8,0,1,117
-Ezri Dax/Kira Nerys,13,10,6,65,7,0,2,103
+Ezri Dax/Kira Nerys,13,10,6,64,7,0,2,102
 Jadzia Dax/Lenara Kahn,6,6,9,63,1,0,1,86
-Benjamin Sisko/Kasidy Yates,18,17,37,17,30,0,0,119
+Benjamin Sisko/Kasidy Yates,18,17,36,16,27,0,0,114
 Kira Nerys/Skrain Dukat,8,5,53,0,1,0,0,67
 Skrain Dukat/non-cast,12,2,40,2,8,0,2,66
-Keiko O'Brien/Kira Nerys,18,7,19,34,30,0,4,112
-Jadzia Dax/Julian Bashir,12,9,32,4,8,0,2,67
+Elim Garak/Julian Bashir/Kelas Parmak,39,10,6,8,26,1,5,95
+Jadzia Dax/Julian Bashir,11,8,31,3,6,0,1,60
 Benjamin Sisko/Kira Nerys,4,10,28,7,22,0,0,71
-Elim Garak/Skrain Dukat,37,1,4,1,1,0,5,49
+Elim Garak/Skrain Dukat,36,1,3,1,1,0,5,47
 Elim Garak/Tora Ziyal,12,11,21,4,7,4,2,61
-Kira Nerys/non-cast,7,6,11,23,5,0,1,53
 Corat Damar/Kira Nerys,5,2,32,1,2,2,0,44
-Skrain Dukat/Tora Naprem,0,7,28,1,0,0,1,37
+Kira Nerys/non-cast,7,6,11,22,5,0,1,52
 Elim Garak/Odo,31,1,1,0,1,0,1,35
+Keiko O'Brien/Kira Nerys/Miles O'Brien,12,5,15,13,26,0,3,74
 Weyoun/non-cast,7,6,21,0,3,1,5,43
+Skrain Dukat/Tora Naprem,0,7,28,1,0,0,1,37
 Benjamin Sisko/Julian Bashir,32,2,2,0,2,0,0,38
 Bareil Antos/Kira Nerys,1,11,28,3,1,0,0,44
-Skrain Dukat/Weyoun,31,1,1,0,2,0,1,36
 Jadzia Dax/non-cast,7,4,11,22,5,1,0,50
-Julian Bashir/Leeta,20,3,14,2,7,0,1,47
+Skrain Dukat/Weyoun,31,1,1,0,2,0,1,36
+Julian Bashir/Leeta,20,3,14,2,5,0,1,45
 Jake Sisko/Tora Ziyal,13,4,21,3,3,1,0,45
 Leeta/Rom,12,7,16,5,7,2,1,50
+Keiko O'Brien/Kira Nerys,6,2,7,25,7,0,1,48
 Julian Bashir/Kira Nerys,8,5,22,2,7,0,2,46
 Julian Bashir/Kelas Parmak,23,2,1,1,11,1,5,44
-Corat Damar/Skrain Dukat,21,2,4,1,4,0,1,33
-Ezri Dax/Lenara Kahn,6,7,7,22,4,0,1,47
 Corat Damar/non-cast,7,6,15,1,3,0,0,32
+Ezri Dax/Lenara Kahn,6,7,7,22,4,0,1,47
+Corat Damar/Skrain Dukat,18,2,4,1,3,0,1,29
 Kasidy Yates/Kira Nerys,2,4,7,10,17,0,0,40
-Kira Nerys/Kira Nerys,0,2,1,18,0,0,1,22
 Benjamin Sisko/Skrain Dukat,19,4,3,1,1,0,0,28
-Brunt/Quark,19,0,1,0,1,0,1,22
+Kira Nerys/Kira Nerys,0,2,1,18,0,0,1,22
 Julian Bashir/Skrain Dukat,20,0,0,0,0,0,1,21
+Brunt/Quark,19,0,1,0,1,0,1,22
 Quark/non-cast,14,2,5,0,2,0,1,24
-Ezri Dax/Weyoun,1,1,17,1,1,0,2,23
 Kira Nerys/Shakaar Edon,3,8,16,2,1,0,1,31
-Enabran Tain/Mila Garak,4,8,8,0,0,2,0,22
+Ezri Dax/Weyoun,1,1,17,1,1,0,2,23
 Ezri Dax/non-cast,1,2,9,14,0,0,1,27
-Julian Bashir/Quark,16,0,3,1,1,1,2,24
+Enabran Tain/Mila Garak,4,8,8,0,0,2,0,22
 Jadzia Dax/Leeta,6,0,2,12,3,0,1,24
-Corat Damar/Elim Garak,16,1,3,1,2,0,0,23
+Julian Bashir/Quark,16,0,3,1,1,1,2,24
+Elim Garak/Julian Bashir/non-cast,12,0,1,1,14,0,0,28
 Elim Garak/Weyoun,15,1,0,0,7,0,0,23
-Lwaxana Troi/Odo,5,4,15,2,3,0,2,31
-Julian Bashir/Keiko O'Brien,10,1,12,2,12,0,0,37
-Kimara Cretak/Kira Nerys,0,1,0,14,0,0,0,15
-Worf/non-cast,5,4,6,1,5,0,0,21
-Odo/non-cast,6,3,9,3,0,0,4,25
+Benjamin Sisko/Kasidy Yates/Kira Nerys,1,3,7,7,16,0,0,34
+Lwaxana Troi/Odo,4,4,14,2,2,0,2,28
+Julian Bashir/Keiko O'Brien/Miles O'Brien,11,1,11,2,11,0,0,36
 Benjamin Sisko/Jadzia Dax,4,1,12,1,4,0,1,23
+Odo/non-cast,6,3,9,3,0,0,4,25
+Kimara Cretak/Kira Nerys,0,1,0,14,0,0,0,15
+Corat Damar/Elim Garak,14,1,3,1,2,0,0,21
 Julian Bashir/Martok,13,0,2,0,3,0,2,20
+Worf/non-cast,5,4,6,1,4,0,0,20
 Kira Meru/Skrain Dukat,0,3,10,0,1,0,0,14
-Elim Garak/Quark,12,0,1,0,1,0,0,14
-Keevan/Remata'Klan,11,1,1,2,1,0,2,18
-Elim Garak/Jadzia Dax,7,0,7,0,4,0,2,20
+Elim Garak/Quark,11,0,1,0,1,0,0,13
 Elim Garak/Worf,11,0,1,0,2,0,0,14
+Keevan/Remata'Klan,11,1,0,2,0,0,2,16
 Natima Lang/Quark,2,1,8,1,4,0,0,16
-Ezri Dax/Tora Ziyal,1,1,0,10,1,0,0,13
 Q/non-cast,7,1,3,0,3,0,0,14
 Grilka/Quark,5,1,8,0,4,0,0,18
-Elim Garak/Kira Nerys,3,0,8,2,3,0,0,16
+Jadzia Dax/Kira Nerys/Lenara Kahn,0,0,0,2,8,0,0,10
+Ezri Dax/Tora Ziyal,1,1,0,10,1,0,0,13
 Benjamin Sisko/non-cast,9,0,2,2,0,0,0,13
 Odo/Weyoun,7,2,1,0,0,1,0,11
-Keevan/Weyoun,8,2,2,2,2,0,3,19
 Sarina Douglas/non-cast,1,2,0,9,1,0,0,13
 Elim Garak/Miles O'Brien,9,0,1,0,2,0,0,12
 Skrain Dukat/Winn Adami,0,3,7,1,0,0,0,11
-Tora Ziyal/non-cast,1,2,1,5,1,0,1,11
-Keevan/non-cast,1,1,7,0,2,0,1,12
-Julian Bashir/Sarina Douglas,2,1,6,0,1,0,0,10
-Hanok/Quark,7,0,2,0,2,0,0,11
-Ezri Dax/Worf,2,2,4,1,3,1,0,13
-Elim Garak/Ezri Dax,4,1,4,1,5,0,0,15
-Benjamin Sisko/Elim Garak,8,0,1,0,1,0,0,10
+Elim Garak/Kira Nerys,2,0,7,2,2,0,0,13
+Keevan/Weyoun,8,2,2,2,1,0,3,18
 Kira Nerys/Tora Ziyal,1,1,2,7,0,0,0,11
-Elim Garak/Keiko O'Brien,2,0,4,0,5,0,1,12
-Nilani Kahn/Torias Dax,0,1,4,4,0,0,1,10
+Keevan/non-cast,1,1,7,0,2,0,1,12
+Hanok/Quark,7,0,2,0,2,0,0,11
+Elim Garak/Ezri Dax/Julian Bashir,4,1,4,1,5,0,0,15
+Julian Bashir/Sarina Douglas,2,1,6,0,1,0,0,10
+Tora Ziyal/non-cast,1,2,1,5,1,0,1,11
+Benjamin Sisko/Elim Garak,8,0,1,0,1,0,0,10
+Ezri Dax/Worf,2,2,4,1,3,1,0,13
+Miles O'Brien/non-cast,5,1,0,0,0,0,1,7
+Emony Dax/non-cast,2,0,4,3,1,0,0,10
+Quark/Worf,7,0,1,0,1,0,0,9
+Elim Garak/Julian Bashir/Odo,3,0,0,0,7,0,0,10
 Julian Bashir/Luther Sloan,7,0,1,0,0,0,0,8
 Julian Bashir/Worf,5,0,1,0,2,0,0,8
-Emony Dax/non-cast,2,0,4,3,1,0,0,10
-Kira Nerys/Miles O'Brien,2,1,6,4,5,0,0,18
-Julian Bashir/Melora Pazlar,3,1,5,0,2,0,1,12
-Miles O'Brien/non-cast,5,1,0,0,0,0,1,7
-Quark/Worf,7,0,1,0,1,0,0,9
-Ezri Dax/Jadzia Dax,0,0,1,6,1,0,1,9
 Shakaar Edon/non-cast,1,5,6,0,0,0,0,12
+Julian Bashir/Melora Pazlar,3,1,5,0,2,0,1,12
 Pel/Quark,4,1,3,1,1,0,2,12
+Nilani Kahn/Torias Dax,0,1,4,4,0,0,1,10
+Kira Nerys/Miles O'Brien,2,1,6,4,5,0,0,18
 Elim Garak/Pythas Lok,6,1,0,1,2,0,0,10
-Nog/non-cast,4,0,4,0,0,0,0,8
+Elim Garak/Jadzia Dax,4,0,5,0,1,0,0,10
 Jack/Kelas Parmak,6,0,0,0,0,0,0,6
-Ezri Dax/Quark,1,0,6,0,0,0,0,7
+Ezri Dax/Jadzia Dax,0,0,1,5,1,0,1,8
+Elim Garak/Keiko O'Brien,2,0,4,0,4,0,1,11
 Elim Garak/Palandine,5,2,4,0,1,0,0,12
-Benjamin Sisko/Jennifer Sisko,1,3,3,1,1,0,0,9
-Julian Bashir/Palis Delon,4,0,3,1,2,0,1,11
-Ishka/Lwaxana Troi,0,0,1,5,1,0,0,7
-Thomas Riker/non-cast,3,1,3,0,0,0,0,7
-Skrain Dukat/Tora Ziyal,0,0,5,0,0,0,0,5
+Nog/non-cast,4,0,4,0,0,0,0,8
+Ezri Dax/Quark,1,0,6,0,0,0,0,7
 Benjamin Sisko/Curzon Dax,3,0,3,0,3,0,1,10
 Curzon Dax/Jadzia Dax,3,1,2,1,2,0,0,9
+Kira Nerys/Odo/Quark,2,1,1,1,4,0,1,10
+Thomas Riker/non-cast,3,1,3,0,0,0,0,7
+Skrain Dukat/Tora Ziyal,0,0,5,0,0,0,0,5
 Julian Bashir/Tora Ziyal,4,1,2,1,4,0,0,12
+Julian Bashir/Palis Delon,4,0,3,1,2,0,1,11
+Ishka/Lwaxana Troi,0,0,1,5,1,0,0,7
+Benjamin Sisko/Jennifer Sisko,1,3,3,1,1,0,0,9
+Julian Bashir/Keiko O'Brien,4,0,5,0,3,0,0,12
 Jack/Sarina Douglas,3,1,5,1,0,0,0,10
-Felix/Julian Bashir,4,0,1,0,1,0,1,7
-Martok/non-cast,1,0,4,0,0,0,1,6
-Ezri Dax/Leeta,1,1,0,4,1,0,0,7
-Yelgrun/non-cast,3,1,0,0,0,0,0,4
+Kira Nerys/Lupaza,0,1,0,3,0,0,0,4
+Elim Garak/Julian Bashir/Tora Ziyal,4,0,2,1,4,0,0,11
 Benjamin Sisko/Quark,4,1,0,0,0,0,0,5
 Kira Nerys/Leeta,1,0,0,3,2,0,0,6
-Eris/Weyoun,0,2,4,0,0,0,0,6
-Female Changeling/Weyoun,3,0,1,0,0,0,1,5
-Kira Nerys/Lupaza,0,1,0,3,0,0,0,4
-Jake Sisko/non-cast,2,1,1,0,0,0,1,5
-Kira Nerys/Quark,1,0,1,0,2,0,0,4
-Jadzia Dax/Keiko O'Brien,3,0,3,4,1,0,0,11
 Female Changeling/Odo,0,1,2,0,0,0,1,4
 Remata'Klan/non-cast,0,0,4,0,2,0,0,6
-Benjamin Sisko/Ezri Dax,1,1,1,2,2,0,1,8
+Ezri Dax/Leeta,1,1,0,4,1,0,0,7
 Morn/non-cast,2,2,1,0,0,0,1,6
 Ezri Dax/Jake Sisko,0,1,4,0,0,0,0,5
-Felix/non-cast,2,0,2,0,1,0,1,6
-Boheeka/Quark,3,0,1,0,0,0,0,4
-Jack/Julian Bashir,2,0,1,0,1,0,0,4
-Furel/Lupaza,1,2,3,0,0,0,0,6
-Julian Bashir/Weyoun,2,0,0,0,3,0,0,5
-Kelas Parmak/non-cast,3,0,0,0,0,0,0,3
-Benjamin Sisko/Odo,3,0,0,0,0,0,0,3
-Captain Solok/non-cast,0,2,3,0,0,0,0,5
-Arissa/Odo,1,1,3,1,1,0,1,8
+Yelgrun/non-cast,3,1,0,0,0,0,0,4
+Felix/Julian Bashir,4,0,1,0,1,0,1,7
+Elim Garak/Jadzia Dax/Julian Bashir,2,0,2,0,2,0,2,8
+Female Changeling/Weyoun,3,0,1,0,0,0,1,5
+Kira Nerys/Quark,1,0,1,0,2,0,0,4
+Eris/Weyoun,0,2,4,0,0,0,0,6
+Martok/non-cast,1,0,4,0,0,0,1,6
+Jake Sisko/non-cast,2,1,1,0,0,0,1,5
 Keiko O'Brien/non-cast,1,1,1,3,0,0,1,7
-Rotan'talag/Weyoun,3,0,0,0,0,0,0,3
-Benjamin Sisko/Michael Eddington,3,0,0,1,0,0,0,4
-Eris/Luaran,2,1,0,3,0,0,0,6
-Iloja of Prim/Tobin Dax,1,2,0,0,0,0,0,3
-Keevan/Yelgrun,3,0,0,1,1,0,2,7
-Enabran Tain/Julian Bashir,3,0,0,0,0,0,0,3
-Mekor Dukat/non-cast,3,0,0,0,0,0,0,3
-Aamin Marritza/Iliana Ghemor,0,0,2,0,0,1,0,3
-Tora Naprem/non-cast,1,1,1,2,1,0,0,6
-Vreenak/non-cast,0,0,3,1,1,0,0,5
-Alexander Rozhenko/Nog,2,0,0,0,1,0,0,3
-Goran'Agar/Julian Bashir,2,1,0,0,0,0,1,4
-Corat Damar/Ezri Dax,1,1,2,1,1,0,0,6
-Julian Bashir/Julian Bashir,2,0,0,0,1,0,1,4
+Captain Solok/non-cast,0,2,3,0,0,0,0,5
 Corat Damar/Tora Ziyal,0,0,3,0,0,0,0,3
-Spock/non-cast,2,0,1,0,0,1,0,4
-Enabran Tain/non-cast,2,0,1,0,0,0,0,3
-Enabran Tain/Kelas Parmak,2,0,0,0,0,0,0,2
-Dax/non-cast,0,0,0,2,0,0,1,3
-Reese/non-cast,2,2,1,0,0,0,1,6
-Natima Lang/Tora Naprem,0,0,0,1,1,0,1,3
-Jadzia Dax/Melora Pazlar,0,0,0,2,0,0,0,2
-Jake Sisko/Kesha,1,0,2,0,1,0,0,4
-Enabran Tain/Martok,2,0,0,0,0,0,0,2
-Julian Bashir/Q,1,0,0,0,1,0,0,2
-Amsha Bashir/Richard Bashir,1,1,1,0,0,0,0,3
-Kira Nerys/Winn Adami,0,0,0,2,0,0,0,2
-Laas/Odo,1,1,0,1,0,0,0,3
-Benjamin Sisko/Vic Fontaine,1,0,1,0,2,0,0,4
-Dax/Lenara Kahn,1,2,2,2,1,0,0,8
-Gilora Rejal/non-cast,0,0,1,1,0,0,0,2
-Kilana/non-cast,0,1,0,1,0,0,0,2
-Quark/Vic Fontaine,2,0,0,0,0,0,0,2
-Keevan/Skrain Dukat,2,0,0,0,0,0,0,2
-Winn Adami/non-cast,0,0,1,1,0,1,0,3
-Jaro Essa/Winn Adami,0,2,2,0,0,0,0,4
-Bareil Antos/Benjamin Sisko,2,1,1,2,1,0,0,7
-Borath/non-cast,1,1,0,0,0,0,0,2
-Tom Paris/non-cast,2,0,2,1,2,0,0,7
-Corat Damar/Keevan,2,0,0,0,0,0,0,2
-Jadzia Dax/Odo,1,0,2,1,1,0,0,5
+Kelas Parmak/non-cast,3,0,0,0,0,0,0,3
+Julian Bashir/Julian Bashir,2,0,0,0,1,0,1,4
+Benjamin Sisko/Odo,3,0,0,0,0,0,0,3
+Vreenak/non-cast,0,0,3,1,1,0,0,5
+Jadzia Dax/Keiko O'Brien,3,0,3,3,1,0,0,10
+Rotan'talag/Weyoun,3,0,0,0,0,0,0,3
+Jack/Julian Bashir,2,0,1,0,1,0,0,4
+Corat Damar/Skrain Dukat/Weyoun,3,0,0,0,1,0,1,5
+Benjamin Sisko/Michael Eddington,3,0,0,1,0,0,0,4
+Elim Garak/Julian Bashir/Miles O'Brien,3,0,1,0,1,0,0,5
+Eris/Luaran,2,1,0,3,0,0,0,6
+Enabran Tain/Julian Bashir,3,0,0,0,0,0,0,3
+Julian Bashir/non-cast/non-cast,2,0,0,0,2,0,0,4
+Felix/non-cast,2,0,2,0,1,0,1,6
+Julian Bashir/Weyoun,2,0,0,0,3,0,0,5
+Corat Damar/Ezri Dax,1,1,2,1,1,0,0,6
+Arissa/Odo,1,1,3,1,1,0,1,8
+Keevan/Yelgrun,3,0,0,1,1,0,2,7
+Furel/Lupaza,1,2,3,0,0,0,0,6
+Alexander Rozhenko/Nog,2,0,0,0,1,0,0,3
+Aamin Marritza/Iliana Ghemor,0,0,2,0,0,1,0,3
+Jadzia Dax/Kira Nerys/Worf,0,1,2,2,1,0,0,6
+Mekor Dukat/non-cast,3,0,0,0,0,0,0,3
+Jadzia Dax/Julian Bashir/Worf,1,0,1,0,2,0,0,4
+Tora Naprem/non-cast,1,1,1,2,1,0,0,6
+Iloja of Prim/Tobin Dax,1,2,0,0,0,0,0,3
+Goran'Agar/Julian Bashir,2,1,0,0,0,0,1,4
+Boheeka/Quark,3,0,1,0,0,0,0,4
 Kira Nerys/Worf,1,0,2,1,1,0,0,5
-Corat Damar/Mila Garak,1,1,2,0,0,0,0,4
-Ishka/Zek,0,1,2,1,1,0,0,5
-Curzon Dax/Quark,2,0,0,0,0,0,0,2
+Enabran Tain/Kelas Parmak,2,0,0,0,0,0,0,2
+Dax/Lenara Kahn,1,2,2,2,1,0,0,8
+Opaka/Winn Adami,0,0,0,2,0,0,0,2
+Worf/non-cast/non-cast,0,0,0,0,2,0,0,2
+Laas/Odo,1,1,0,1,0,0,0,3
+Quark/Vic Fontaine,2,0,0,0,0,0,0,2
+Gilora Rejal/non-cast,0,0,1,1,0,0,0,2
+Joseph Sisko/Sarah Sisko,0,1,1,0,0,0,0,2
+Benjamin Sisko/Vic Fontaine,1,0,1,0,2,0,0,4
+Kira Nerys/Winn Adami,0,0,0,2,0,0,0,2
+Natima Lang/Tora Naprem,0,0,0,1,1,0,1,3
+Borath/non-cast,1,1,0,0,0,0,0,2
+Joseph Sisko/non-cast,0,0,2,0,0,0,0,2
+Corat Damar/Keevan,2,0,0,0,0,0,0,2
+Reese/non-cast,2,2,1,0,0,0,1,6
+Jadzia Dax/Melora Pazlar,0,0,0,2,0,0,0,2
+Elim Garak/Julian Bashir/Skrain Dukat,2,0,0,0,0,0,0,2
+Elim Garak/Enabran Tain,1,0,0,0,0,1,0,2
 Chalan Aroya/Odo,1,1,1,0,0,0,0,3
-Corat Damar/Julian Bashir,2,1,0,0,0,0,0,3
+Enabran Tain/Martok,2,0,0,0,0,0,0,2
+Julian Bashir/Odo,2,0,1,1,1,0,0,5
+Julian Bashir/Q,1,0,0,0,1,0,0,2
+Jaro Essa/Winn Adami,0,2,2,0,0,0,0,4
+Corat Damar/Skrain Dukat/non-cast,1,0,1,0,0,0,0,2
 Grilka/Natima Lang,0,0,0,2,1,0,0,3
+Ezri Dax/Jadzia Dax/Kira Nerys,0,0,0,2,1,0,0,3
+Jadzia Dax/Odo,1,0,2,1,1,0,0,5
+Jadzia Dax/Kira Nerys/Odo,2,1,2,2,2,0,1,10
+Amsha Bashir/Richard Bashir,1,1,1,0,0,0,0,3
+Keevan/Skrain Dukat,2,0,0,0,0,0,0,2
+Dax/non-cast,0,0,0,2,0,0,1,3
+Corat Damar/Julian Bashir,2,1,0,0,0,0,0,3
+Curzon Dax/Quark,2,0,0,0,0,0,0,2
+Enabran Tain/non-cast,2,0,1,0,0,0,0,3
+Kilana/non-cast,0,1,0,1,0,0,0,2
+Jake Sisko/Kesha,1,0,2,0,1,0,0,4
+Dax/Worf,0,0,0,0,0,2,0,2
+Kira Nerys/non-cast/non-cast,0,0,0,1,1,0,0,2
+Benjamin Sisko/Ezri Dax,0,0,0,1,0,0,1,2
+K'Ehleyr/Worf,0,1,1,0,1,0,1,4
+Elim Garak/Julian Bashir/Keiko O'Brien/Miles O'Brien,1,0,1,0,2,0,0,4
+Barkan Lokar/Elim Garak/Palandine,2,0,1,1,1,0,0,5
+Odo/Worf,2,0,0,1,1,0,0,4
 Ishka/Keldar,1,0,1,0,0,0,0,2
 Akellen Macet/Elim Garak,2,0,0,0,0,0,0,2
-Joseph Sisko/non-cast,0,0,2,0,0,0,0,2
-Dax/Worf,0,0,0,0,0,2,0,2
-Leeta/Winn Adami,0,0,0,2,0,0,0,2
-Curzon Dax/Julian Bashir,2,0,1,0,1,0,1,5
-Julian Bashir/Odo,2,0,1,1,1,0,0,5
-Elim Garak/Lwaxana Troi,0,0,2,0,0,0,0,2
-Opaka/Winn Adami,0,0,0,2,0,0,0,2
-Dax/Julian Bashir,1,0,1,1,2,0,0,5
+Corat Damar/Mila Garak,1,1,2,0,0,0,0,4
 Morn/Quark,2,1,1,0,0,0,0,4
-Odo/Worf,2,0,0,1,1,0,0,4
-Elim Garak/Enabran Tain,1,0,0,0,0,1,0,2
-Barkan Lokar/Elim Garak,2,0,1,1,1,0,0,5
-Kasidy Yates/Keiko O'Brien,0,0,0,0,2,0,0,2
-K'Ehleyr/Worf,0,1,1,0,1,0,1,4
+Ishka/Zek,0,1,2,1,1,0,0,5
+Elim Garak/Lwaxana Troi,0,0,2,0,0,0,0,2
+Elim Garak/Julian Bashir/Julian Bashir,1,0,0,0,2,0,0,3
 Benjamin Sisko/Rom,2,0,0,0,0,0,0,2
-Joseph Sisko/Sarah Sisko,0,1,1,0,0,0,0,2
-Corat Damar/Quark,1,0,0,0,0,0,0,1
-Han Solo/Luke Skywalker,0,0,0,0,1,0,0,1
-Eris/Kilana,1,0,0,1,1,0,1,4
-Alexander Rozhenko/Jake Sisko,0,0,0,0,1,0,0,1
-Deral/Julian Bashir,1,0,0,0,0,0,0,1
-Rom/non-cast,1,0,0,0,1,0,0,2
-Ray Vecchio/non-cast,1,0,1,1,0,0,0,3
-Julian Bashir/Lwaxana Troi,1,0,1,0,1,0,1,4
-Jadzia Dax/Kilana,1,0,0,1,0,0,1,3
-The Doctor/non-cast,1,0,1,1,0,0,1,4
-Rose Tyler/non-cast,1,0,1,1,0,0,1,4
-Ezri Dax/Kilana,0,0,0,1,0,0,0,1
-Kaga/Quark,1,0,0,0,0,0,0,1
-Omet'iklan/Weyoun,1,0,1,0,0,0,0,2
-Kelas Parmak/Tora Ziyal,0,0,1,0,1,0,1,3
-Julian Bashir/Winn Adami,0,0,1,0,0,0,0,1
-Elim Garak/Joseph Sisko,1,0,0,0,0,0,0,1
-Ezri Dax/Nog,0,0,1,0,0,0,0,1
-Kela Idaris/non-cast,0,0,1,0,0,0,0,1
-Alexander Rozhenko/Ch'Targh,0,0,0,0,1,0,0,1
-Jadzia Dax/K'Ehleyr,0,0,0,0,1,0,0,1
-Ziranne Idaris/non-cast,0,0,1,0,0,0,0,1
-Kira Nerys/Tekeny Ghemor,0,0,1,0,0,0,0,1
-Brunt/non-cast,1,0,0,0,0,0,0,1
-Drex/Elim Garak,1,0,0,0,1,0,0,2
-Gor/Weyoun,1,0,0,0,0,0,0,1
-Athra Dukat/Skrain Dukat,0,1,0,0,0,0,0,1
-Quark/Skrain Dukat,1,0,0,0,0,0,0,1
-Mavek/non-cast,0,0,1,0,0,0,0,1
-Julian Bashir/Kaga,1,0,0,0,0,0,0,1
-Benjamin Sisko/Weyoun,1,0,1,0,0,0,0,2
-Amsha Bashir/Elim Garak,1,0,1,0,1,0,0,3
-Benjamin Sisko/Miles O'Brien,1,0,0,0,0,0,0,1
-Benjamin Sisko/Q,0,0,0,0,0,1,0,1
-Elim Garak/Richard Bashir,1,0,1,0,1,0,0,3
-Jasper Hale/Rosalie Hale,0,0,0,0,1,0,0,1
-Benjamin Sisko/Captain Solok,0,0,0,0,1,0,0,1
-Ezri Dax/Garak,0,0,1,1,1,0,0,3
-Alexander Rozhenko/Julian Bashir,1,0,0,0,0,0,0,1
-Jadzia Dax/Kasidy Yates,0,0,0,1,0,0,0,1
-Julian Bashir/Lieutenant Watley,0,0,1,0,0,0,0,1
-Luaran/non-cast,0,1,0,0,0,0,0,1
-Kaga/non-cast,0,0,0,0,0,0,1,1
-Benjamin Sisko/Tora Ziyal,1,0,0,1,1,0,0,3
-Elim Garak/Kaga,1,0,0,0,0,0,0,1
+Winn Adami/non-cast,0,0,1,1,0,1,0,3
+Julian Bashir/Leeta/Rom,0,0,0,0,2,0,0,2
+Leeta/Winn Adami,0,0,0,2,0,0,0,2
 Gelnon/non-cast,0,1,0,0,0,0,0,1
 Eris/non-cast,0,1,0,0,0,0,0,1
-Benjamin Sisko/Dax,0,0,1,0,1,0,1,3
-Kimara Cretak/T'Rul,1,1,1,1,0,0,1,5
-Kasidy Yates/Weyoun,1,0,1,0,0,0,0,2
-Kathryn Janeway/non-cast,1,0,1,1,1,0,0,4
-Curzon Dax/Elim Garak,0,0,0,0,1,0,0,1
 Deyos/non-cast,0,1,0,0,0,0,0,1
-Bareil Antos/Morn,1,0,1,1,0,0,0,3
+Julian Bashir/Kaga,1,0,0,0,0,0,0,1
+Luaran/non-cast,0,1,0,0,0,0,0,1
+Corat Damar/Ezri Dax/Kira Nerys/Weyoun,1,0,1,1,1,0,0,4
+Elim Garak/Kaga,1,0,0,0,0,0,0,1
+Benjamin Sisko/Tora Ziyal,1,0,0,1,1,0,0,3
 Kira Nerys/Weyoun,1,0,1,1,1,0,0,4
-Benjamin Sisko/Morn,1,0,1,0,0,0,0,2
-Boday/Julian Bashir,1,0,0,0,0,0,0,1
-Weyoun/Weyoun,1,0,0,0,1,0,0,2
-Corat Damar/Reader,0,0,1,0,0,0,0,1
-Ellis Gareth/Julian Bashir,1,0,0,0,0,0,0,1
+Kira Nerys/Odo/non-cast,0,0,1,1,0,0,0,2
+Grilka/Natima Lang/Quark,0,0,0,1,1,0,0,2
+Benjamin Sisko/Morn/Zek/non-cast,1,0,1,0,0,0,0,2
+Jadzia Dax/Julian Bashir/non-cast,0,0,1,0,0,0,1,2
+Keevan/Remata'Klan/non-cast,0,0,1,0,1,0,0,2
+Rom/non-cast,1,0,0,0,1,0,0,2
 Curzon Dax/non-cast,1,0,1,0,0,0,0,2
-Dax/Garak,0,0,0,0,1,0,0,1
 Torias Dax/non-cast,1,0,1,0,0,0,0,2
-Cox/non-cast,1,0,1,0,0,0,0,2
+Kimara Cretak/T'Rul,1,1,1,1,0,0,1,5
+Benjamin Sisko/Miles O'Brien,1,0,0,0,0,0,0,1
+Elim Garak/Ezri Dax/Kira Nerys/non-cast,0,0,1,1,1,0,0,3
+Julian Bashir/Lieutenant Watley,0,0,1,0,0,0,0,1
+Mavek/non-cast,0,0,1,0,0,0,0,1
+Benjamin Sisko/Curzon Dax/Jadzia Dax,1,0,1,0,1,0,0,3
+Jadzia Dax/Kilana,1,0,0,1,0,0,1,3
+Kaga/non-cast,0,0,0,0,0,0,1,1
+Jadzia Dax/Kasidy Yates,0,0,0,1,0,0,0,1
+Benjamin Sisko/Elim Garak/Ezri Dax/Jadzia Dax/Julian Bashir/Kasidy Yates/Keiko O'Brien/Kira Nerys/Leeta/Miles O'Brien/Odo/Quark/Rom/Worf,1,1,1,1,1,0,0,5
+Benjamin Sisko/Q,0,0,0,0,0,1,0,1
+Elim Garak/Julian Bashir/Keiko O'Brien,1,0,1,0,1,0,0,3
 Cox/Kira Nerys,1,0,1,0,0,0,0,2
-Kira Nerys/Natima Lang,1,1,0,1,0,0,0,3
+Cox/non-cast,1,0,1,0,0,0,0,2
+Dax/Elim Garak/Julian Bashir/Worf,0,0,0,0,1,0,0,1
+Skrain Dukat/Weyoun/Weyoun,1,0,0,0,1,0,0,2
+Weyoun/Weyoun,1,0,0,0,1,0,0,2
+Kasidy Yates/Keiko O'Brien/Miles O'Brien,0,0,0,0,1,0,0,1
+Boday/Julian Bashir,1,0,0,0,0,0,0,1
+Bareil Antos/Morn,1,0,1,1,0,0,0,3
+Bareil Antos/Benjamin Sisko/Elim Garak/Ezri Dax/Jadzia Dax/Julian Bashir/Kasidy Yates/Keiko O'Brien/Kira Nerys/Leeta/Miles O'Brien/Odo/Quark/Rom/Shakaar Edon/Worf,1,1,1,1,1,0,0,5
+Curzon Dax/Elim Garak/Julian Bashir/Odo,0,0,0,0,1,0,0,1
+Elim Garak/Julian Bashir/Quark,1,0,0,0,0,0,0,1
+Curzon Dax/Elim Garak/Odo,0,0,0,0,1,0,0,1
+Alexander Rozhenko/Jake Sisko/Nog,0,0,0,0,1,0,0,1
+Ezri Dax/Kilana,0,0,0,1,0,0,0,1
+Elim Garak/Ezri Dax,1,0,1,0,0,0,0,2
+Elim Garak/Joseph Sisko,1,0,0,0,0,0,0,1
+Elim Garak/Julian Bashir/Weyoun,1,0,0,0,1,0,0,2
+Kela Idaris/non-cast,0,0,1,0,0,0,0,1
+Ziranne Idaris/non-cast,0,0,1,0,0,0,0,1
+Corat Damar/Elim Garak/non-cast,1,0,0,0,0,0,0,1
+Julian Bashir/Winn Adami,0,0,1,0,0,0,0,1
+Kira Nerys/Tekeny Ghemor,0,0,1,0,0,0,0,1
+Alexander Rozhenko/Julian Bashir,1,0,0,0,0,0,0,1
+Quark/Skrain Dukat,1,0,0,0,0,0,0,1
+Julian Bashir/Martok/Sirella,1,0,1,0,1,0,0,3
+Elim Garak/Richard Bashir,1,0,1,0,1,0,0,3
+Benjamin Sisko/Captain Solok,0,0,0,0,1,0,0,1
+Benjamin Sisko/Curzon Dax/non-cast,0,0,0,0,1,0,0,1
+Kasidy Yates/Keiko O'Brien,0,0,0,0,1,0,0,1
+Benjamin Sisko/Dax,0,0,1,0,1,0,1,3
+Elim Garak/Kira Nerys/Worf,1,0,1,0,1,0,0,3
+Ellis Gareth/Julian Bashir,1,0,0,0,0,0,0,1
+Eris/Kilana,1,0,0,1,1,0,1,4
+Deral/Julian Bashir,1,0,0,0,0,0,0,1
 Pel/non-cast,1,0,0,0,0,0,0,1
-Leeta/Quark,0,0,1,0,0,0,0,1
-Elim Garak/Winn Adami,0,0,1,0,0,0,0,1
-Emergency Medical Hologram Mark II/non-cast,1,0,1,1,0,0,0,3
-Ishka/Jadzia Dax,0,0,0,1,0,0,0,1
-Odo/Skrain Dukat,1,0,1,1,1,0,0,4
-Elim Garak/Opaka,0,0,1,0,0,0,0,1
-Elim Garak/Luther Sloan,1,0,0,0,0,0,0,1
-Lauren/non-cast,0,1,1,0,0,0,0,2
+Gor/Weyoun,1,0,0,0,0,0,0,1
+Alexander Rozhenko/Ch'Targh,0,0,0,0,1,0,0,1
+Ezri Dax/Nog,0,0,1,0,0,0,0,1
+Curzon Dax/Julian Bashir/Odo,1,0,1,0,1,0,1,4
+Julian Bashir/Lwaxana Troi,1,0,1,0,1,0,1,4
+Elim Garak/Julian Bashir/Kaga,1,0,0,0,1,0,0,2
+Benjamin Sisko/Kasidy Yates/Weyoun,1,0,1,0,0,0,0,2
+Benjamin Sisko/Weyoun,1,0,1,0,0,0,0,2
+Kasidy Yates/Weyoun,1,0,1,0,0,0,0,2
+Benjamin Sisko/Ezri Dax/Kasidy Yates,0,0,0,0,1,0,0,1
+Curzon Dax/Julian Bashir,1,0,0,0,0,0,0,1
+Elim Garak/Keiko O'Brien/Kelas Parmak/Miles O'Brien,0,0,0,0,1,0,0,1
+Amsha Bashir/Elim Garak,1,0,1,0,1,0,0,3
+Amsha Bashir/Elim Garak/Richard Bashir,1,0,1,0,1,0,0,3
+Brunt/non-cast,1,0,0,0,0,0,0,1
+Julian Bashir/Keiko O'Brien/Kira Nerys/Miles O'Brien,0,0,0,0,1,0,0,1
+Corat Damar/Quark,1,0,0,0,0,0,0,1
+Grilka/Lenara Kahn/non-cast,1,0,0,0,1,0,0,2
 Jadzia Dax/Jennifer Sisko,0,0,0,1,0,0,0,1
 Vash/non-cast,0,0,1,0,0,0,0,1
 Borath/Weyoun,1,1,1,0,1,0,0,4
-Throlo Sh'shirros/ToloS | Qolar,1,0,1,1,0,0,0,3
-Luaran/Yelgrun,0,1,0,0,1,0,0,2
-Julianna/non-cast,1,0,1,0,1,0,0,3
-Lantash/Sam Carter,1,0,1,0,1,0,0,3
-Martouf/Sam Carter,1,0,1,0,1,0,0,3
+Emergency Medical Hologram Mark II/non-cast,1,0,1,1,0,0,0,3
+Elim Garak/Quark/non-cast,1,0,0,0,0,0,0,1
 Iliana Ghemor/Tora Ziyal,1,1,0,1,0,0,0,3
 Ezri Dax/Vic Fontaine,0,0,1,0,0,0,0,1
-Jean-Luc Picard/non-cast,1,1,1,1,1,0,0,5
 Ezri Dax/Lauren,0,0,0,1,0,0,0,1
-Zek/background Leeta,1,0,0,0,0,0,0,1
-Ezri Dax/Skrain Dukat,1,1,1,0,0,0,0,3
-Deyos/Weyoun,0,1,0,0,1,0,0,2
-Skrain Dukat/Vreenak,0,0,1,0,1,0,0,2
-Dax/Kira Nerys,0,0,0,1,0,0,0,1
-Martok/Sirella,0,1,1,0,0,0,0,2
-Elim Garak/Keevan,1,0,0,0,0,0,0,1
-Ryan Ross/Spencer Smith,1,0,1,0,1,0,1,4
-Victoria Asher/non-cast,1,0,1,0,1,0,1,4
-Mareel/Verad,0,0,1,0,0,0,0,1
-Kira Nerys/Vic Fontaine,0,0,1,0,0,0,0,1
-Sikozu Svala Shanti Sugaysi Shanu/non-cast,1,0,0,0,1,0,0,2
-Troy Barnes/non-cast,1,0,0,0,1,0,0,2
-Alexander Rozhenko/Lauren,1,0,1,1,0,0,0,3
-Dax/Jadzia Dax,0,0,0,0,0,0,1,1
+Leeta/Zek/non-cast,1,0,0,0,0,0,0,1
+Corat Damar/Gul Rusot,1,0,1,1,1,0,0,4
+Gowron/Julian Bashir,1,0,0,0,0,0,0,1
+Elim Garak/Julian Bashir/Kira Nerys,0,0,0,0,1,0,0,1
+Bareil Antos/Julian Bashir,1,0,0,0,0,0,0,1
+Miles O'Brien/Worf,1,0,0,1,0,0,0,2
+Jadzia Dax/Jadzia Dax,0,0,0,1,1,0,0,2
+Lwaxana Troi/Odo/Quark,1,0,1,0,1,0,0,3
+Lwaxana Troi/Quark,1,0,1,0,1,0,0,3
+Elim Garak/Morn,1,0,0,0,0,0,0,1
+Elim Garak/Worf/non-cast,1,0,0,0,0,0,0,1
+Kimara Cretak/non-cast,0,0,0,1,0,0,0,1
+Jack/non-cast,1,0,0,0,0,0,0,1
+Benjamin Sisko/Jennifer Sisko/Kasidy Yates,1,0,1,1,1,0,0,4
+Lauren/non-cast,0,1,1,0,0,0,0,2
+Elim Garak/Luther Sloan,1,0,0,0,0,0,0,1
+Odo/Skrain Dukat,1,0,1,1,1,0,0,4
+Dax/Julian Bashir/Kira Nerys/Odo,1,0,1,1,1,0,0,4
+Elim Garak/Opaka,0,0,1,0,0,0,0,1
+Ishka/Jadzia Dax,0,0,0,1,0,0,0,1
+Jennifer Sisko/Miles O'Brien,0,0,0,0,1,0,0,1
 Bareil Antos/Winn Adami,0,0,1,0,0,0,0,1
-William Riker/non-cast,1,1,1,0,1,0,0,4
+Dax/Kira Nerys,0,0,0,1,0,0,0,1
+Kira Nerys/Vic Fontaine,0,0,1,0,0,0,0,1
+Elim Garak/Keevan,1,0,0,0,0,0,0,1
+Martok/Sirella,0,1,1,0,0,0,0,2
+Ezri Dax/Jadzia Dax/non-cast,0,0,0,1,0,0,0,1
+Mareel/Verad,0,0,1,0,0,0,0,1
+Alexander Rozhenko/Lauren,1,0,1,1,0,0,0,3
 Boday/Jadzia Dax,1,0,1,0,1,0,0,3
 Jake Sisko/Laira,1,0,1,0,1,0,0,3
 Jake Sisko/Mardah,1,0,1,0,1,0,0,3
-Jennifer Sisko/Miles O'Brien,0,0,0,0,1,0,0,1
+Jadzia Dax/Keiko O'Brien/Kira Nerys,0,0,0,1,0,0,0,1
 Prinadora/Rom,0,0,1,0,0,0,1,2
 Lela Dax/non-cast,0,0,0,1,0,0,1,2
-Corat Damar/Gul Rusot,1,0,1,1,1,0,0,4
-Lenara Kahn/background Grilka,1,0,0,0,1,0,0,2
-Julian Bashir/Tom Paris,1,0,0,0,0,0,0,1
+Dax/Jadzia Dax,0,0,0,0,0,0,1,1
+Deyos/Weyoun,0,1,0,0,1,0,0,2
+Luaran/Yelgrun,0,1,0,0,1,0,0,2
+Ezri Dax/Skrain Dukat,1,1,1,0,0,0,0,3
+Julian Bashir/Kukalaka,0,0,0,0,0,0,1,1
+Tekeny Ghemor/non-cast,1,1,0,0,0,0,0,2
+Keevan/Weyoun/non-cast,0,0,0,0,1,0,0,1
+Elim Garak/Winn Adami,0,0,1,0,0,0,0,1
+Elim Garak/Julian Bashir/Miles O'Brien/non-cast/non-cast,1,1,1,1,1,0,0,5
+Elim Garak/Julian Bashir/non-cast/non-cast,1,1,1,1,1,0,0,5
+Bareil Antos/Benjamin Sisko,1,0,0,1,0,0,0,2
+Elim Garak/Kai Winn,1,0,0,1,0,0,0,2
+Michael Eddington/Rebecca Sullivan,0,1,1,0,0,0,0,2
+Deral/Jadzia Dax,0,0,1,0,0,0,0,1
+Keiko O'Brien/Kira Nerys/Miles O'Brien/non-cast,0,0,0,0,1,0,0,1
+Gowron/non-cast,0,0,1,0,0,0,0,1
+Elim Garak/Procal Dukat,1,0,0,0,0,0,0,1
+Skrain Dukat/Vreenak/non-cast,0,0,1,0,1,0,0,2
+Kira Nerys/Natima Lang,1,1,0,1,0,0,0,3
+Kai Winn/Skrain Dukat,0,0,1,0,0,0,0,1
+Kaga/Quark,1,0,0,0,0,0,0,1
+Omet'iklan/Weyoun,1,0,1,0,0,0,0,2
+Jadzia Dax/Julian Bashir/Kira Nerys,0,0,1,0,0,0,0,1
+Dax/Julian Bashir,0,0,0,0,1,0,0,1
+Elim Garak/Kelas Parmak/Tora Ziyal,0,0,1,0,1,0,1,3
+Kelas Parmak/Tora Ziyal,0,0,1,0,1,0,1,3
+Elim Garak/Julian Bashir/Morn,1,0,0,0,0,0,0,1
+Jadzia Dax/K'Ehleyr/Worf,0,0,0,0,1,0,0,1
+Drex/Elim Garak,1,0,0,0,1,0,0,2
+Athra Dukat/Skrain Dukat,0,1,0,0,0,0,0,1
+Lwaxana Troi/Mora Pol,0,1,1,0,0,0,1,3
 Elim Garak/Q,1,0,0,0,0,0,0,1
+Elim Garak/Skrain Dukat/Tora Naprem,0,0,1,0,0,0,0,1
+Jadzia Dax/Kira Nerys/Leeta/Lenara Kahn,0,0,0,1,0,0,0,1
+Elim Garak/Kelas Parmak/Pythas Lok,1,0,0,0,1,0,0,2
+Corat Damar/Elim Garak/Julian Bashir,1,0,0,0,0,0,0,1
+Gilora Rejal/Nal Dejar,0,0,0,1,0,0,0,1
+Leeta/Quark,0,0,1,0,0,0,0,1
+Corat Damar/Niala Damar,0,0,1,0,0,0,0,1
+Kelas Parmak/Pythas Lok,1,0,0,0,0,0,0,1
+Miles O'Brien/non-cast/non-cast,1,0,1,0,0,0,0,2
+Quark/Vash,1,0,1,0,0,0,0,2
+Jadzia Dax/Julian Bashir/Kira Nerys/non-cast,1,1,0,0,1,0,1,4
+Keevan/Kilana,1,0,1,0,0,0,0,2
+Jadzia Dax/Julian Bashir/Leeta,0,0,1,1,1,0,0,3
+Elim Garak/Skrain Dukat/Weyoun,1,0,0,0,0,0,0,1
+Elim Garak/Jadzia Dax/non-cast,1,0,0,0,1,0,0,2
 Elim Garak/Jack,1,0,0,0,0,0,0,1
 Corat Damar/Jadzia Dax,0,0,1,0,0,0,0,1
 Athra Dukat/Tora Naprem,0,0,1,1,0,0,0,2
@@ -326,36 +402,5 @@ Kira Nerys/Kira Reon,0,1,0,0,0,0,0,1
 Alexander Rozhenko/non-cast,0,0,1,0,0,0,0,1
 Kira Meru/non-cast,0,0,0,0,1,0,0,1
 Kira Nerys/Lenara Kahn,0,0,0,1,0,0,0,1
-Lwaxana Troi/Mora Pol,0,1,1,0,0,0,1,3
-Gowron/Julian Bashir,1,0,0,0,0,0,0,1
-Elim Garak/Kai Winn,1,0,0,1,0,0,0,2
-Michael Eddington/Rebecca Sullivan,0,1,1,0,0,0,0,2
-Deral/Jadzia Dax,0,0,1,0,0,0,0,1
-Kira Nerys/OFC,0,0,0,0,1,0,0,1
-Gowron/non-cast,0,0,1,0,0,0,0,1
-Dutch | Yalena Yardeen/non-cast,0,1,0,0,0,0,0,1
-Tuvok (Star Trek)/non-cast,0,1,1,0,0,0,0,2
-Elim Garak/Procal Dukat,1,0,0,0,0,0,0,1
-Keevan/Kilana,1,0,1,0,0,0,0,2
-Gerard Way/non-cast,1,0,0,0,0,0,0,1
-Quark/Vash,1,0,1,0,0,0,0,2
-Miles O'Brien/Owen Lars,1,0,1,0,0,0,0,2
-Bareil Antos/Julian Bashir,1,0,0,0,0,0,0,1
-Miles O'Brien/Worf,1,0,0,1,0,0,0,2
-Jadzia Dax/Jadzia Dax,0,0,0,1,1,0,0,2
-Vislor Turlough/non-cast,0,0,0,0,1,0,0,1
-Lwaxana Troi/Quark,1,0,1,0,1,0,0,3
-Elim Garak/Morn,1,0,0,0,0,0,0,1
-Elim Garak/Worf (Star Trek: TNG,1,0,0,0,0,0,0,1
-Kimara Cretak/non-cast,0,0,0,1,0,0,0,1
-Jack/non-cast,1,0,0,0,0,0,0,1
-Julian Bashir/Kukalaka,0,0,0,0,0,0,1,1
-Tekeny Ghemor/non-cast,1,1,0,0,0,0,0,2
-Kai Winn/Skrain Dukat,0,0,1,0,0,0,0,1
-Gilora Rejal/Nal Dejar,0,0,0,1,0,0,0,1
-Corat Damar/Niala Damar,0,0,1,0,0,0,0,1
-Kelas Parmak/Pythas Lok,1,0,0,0,0,0,0,1
-Male OC/non-cast,1,0,0,0,1,0,0,2
-justice league/non-cast,0,0,1,1,1,0,1,4
 Julian Bashir/Lauren,0,0,1,0,0,0,0,1
-Total,5753,1042,1861,1167,835,166,331,11155
+Total,5798,1046,1885,1187,895,167,335,11313
