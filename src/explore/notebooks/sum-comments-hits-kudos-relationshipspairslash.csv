@@ -1,323 +1,399 @@
 relationshipspairslash,works,comments,kudos,hits,words
-Elim Garak/Julian Bashir,3850,96841,601979,5868705,19683503
-Jadzia Dax/Kira Nerys,406,4783,25603,317247,1524299
+Elim Garak/Julian Bashir,3812,96437,600400,5849184,19492798
+Jadzia Dax/Kira Nerys,394,4724,25445,313527,1513586
 Odo/Quark,372,6319,38204,325751,1706558
-non-cast/non-cast,299,6977,16810,362785,5809313
-Kira Nerys/Odo,247,2514,14733,298714,1917333
-Julian Bashir/non-cast,145,3835,10301,136550,1825956
+non-cast/non-cast,304,7002,17033,365007,5816623
+Kira Nerys/Odo,244,2509,14683,297665,1907432
 Jadzia Dax/Worf,144,2776,10460,123833,958660
-Keiko O'Brien/Miles O'Brien,126,4275,13277,127902,1299390
+Julian Bashir/non-cast,143,3823,10257,136031,1810317
+Keiko O'Brien/Miles O'Brien,125,4256,13185,127350,1296133
 Corat Damar/Weyoun,124,1527,6412,69006,732637
-Elim Garak/Kelas Parmak,120,4105,7445,97294,1031230
+Elim Garak/Kelas Parmak,118,4094,7332,95832,1024365
 Ezri Dax/Julian Bashir,112,4624,6457,91384,1000297
 Julian Bashir/Miles O'Brien,98,1313,6576,88037,450688
 Elim Garak/non-cast,88,3323,7573,94000,1179935
 Jake Sisko/Nog,84,1237,6283,56219,329382
-Ezri Dax/Kira Nerys,73,593,2667,43637,480209
+Ezri Dax/Kira Nerys,72,587,2617,42966,477932
 Jadzia Dax/Lenara Kahn,67,511,2553,33429,155090
-Benjamin Sisko/Kasidy Yates,64,892,2230,33674,673666
+Benjamin Sisko/Kasidy Yates,61,890,2206,33328,670207
 Kira Nerys/Skrain Dukat,59,982,4132,79773,539484
 Skrain Dukat/non-cast,56,1499,2614,38145,1107305
-Keiko O'Brien/Kira Nerys,56,1040,5419,54931,265386
-Jadzia Dax/Julian Bashir,44,324,2617,34235,251568
+Elim Garak/Julian Bashir/Kelas Parmak,47,1849,3418,50196,582808
+Jadzia Dax/Julian Bashir,42,322,2583,33379,249872
 Benjamin Sisko/Kira Nerys,42,308,654,9807,146994
-Elim Garak/Skrain Dukat,41,416,2434,30866,169028
+Elim Garak/Skrain Dukat,39,412,2385,30078,167367
 Elim Garak/Tora Ziyal,36,603,2148,34394,378810
-Kira Nerys/non-cast,35,594,1433,17843,539422
 Corat Damar/Kira Nerys,35,614,1668,28385,493466
-Skrain Dukat/Tora Naprem,33,188,717,13373,236083
+Kira Nerys/non-cast,34,579,1421,17656,536421
 Elim Garak/Odo,33,125,1038,9036,38062
+Keiko O'Brien/Kira Nerys/Miles O'Brien,33,782,4013,34747,140575
 Weyoun/non-cast,33,181,872,14866,237531
+Skrain Dukat/Tora Naprem,33,188,717,13373,236083
 Benjamin Sisko/Julian Bashir,33,298,890,10831,125108
 Bareil Antos/Kira Nerys,32,302,465,5469,284834
-Skrain Dukat/Weyoun,32,463,1613,19298,213812
 Jadzia Dax/non-cast,32,347,1024,11039,117745
-Julian Bashir/Leeta,31,1484,4189,38565,306306
+Skrain Dukat/Weyoun,32,463,1613,19298,213812
+Julian Bashir/Leeta,29,1410,4107,38105,290865
 Jake Sisko/Tora Ziyal,29,565,2151,22739,393667
 Leeta/Rom,28,448,1799,17797,191356
+Keiko O'Brien/Kira Nerys,27,302,1511,20884,136147
 Julian Bashir/Kira Nerys,27,1053,1759,26263,225738
 Julian Bashir/Kelas Parmak,26,1481,2056,33069,415502
-Corat Damar/Skrain Dukat,25,504,1561,23558,153287
-Ezri Dax/Lenara Kahn,23,391,795,15312,291577
 Corat Damar/non-cast,23,592,956,18741,406906
+Ezri Dax/Lenara Kahn,23,391,795,15312,291577
+Corat Damar/Skrain Dukat,22,483,1449,22559,144931
 Kasidy Yates/Kira Nerys,21,71,425,6749,40787
-Kira Nerys/Kira Nerys,21,141,696,17889,179052
 Benjamin Sisko/Skrain Dukat,21,266,1385,28562,66132
-Brunt/Quark,20,336,1213,9343,60377
+Kira Nerys/Kira Nerys,21,141,696,17889,179052
 Julian Bashir/Skrain Dukat,20,962,2852,42268,247586
+Brunt/Quark,20,336,1213,9343,60377
 Quark/non-cast,19,216,658,7190,95780
-Ezri Dax/Weyoun,19,49,568,4884,26677
 Kira Nerys/Shakaar Edon,19,218,405,6338,173554
-Enabran Tain/Mila Garak,18,814,1304,7566,109460
+Ezri Dax/Weyoun,19,49,568,4884,26677
 Ezri Dax/non-cast,18,119,229,7327,151588
-Julian Bashir/Quark,17,858,1233,12131,81282
+Enabran Tain/Mila Garak,18,814,1304,7566,109460
 Jadzia Dax/Leeta,17,244,753,10217,50773
-Corat Damar/Elim Garak,16,405,970,17860,130943
+Julian Bashir/Quark,17,858,1233,12131,81282
+Elim Garak/Julian Bashir/non-cast,16,508,1277,16774,96297
 Elim Garak/Weyoun,16,136,403,4726,70452
-Lwaxana Troi/Odo,16,149,807,11278,156177
-Julian Bashir/Keiko O'Brien,15,253,1186,20904,86640
-Kimara Cretak/Kira Nerys,14,166,629,5945,37038
-Worf/non-cast,14,249,1185,19854,183658
-Odo/non-cast,14,396,977,16218,258609
+Benjamin Sisko/Kasidy Yates/Kira Nerys,16,19,102,1505,31824
+Lwaxana Troi/Odo,15,133,721,10615,154996
+Julian Bashir/Keiko O'Brien/Miles O'Brien,14,258,1239,20969,88192
 Benjamin Sisko/Jadzia Dax,14,84,439,10166,79599
+Odo/non-cast,14,396,977,16218,258609
+Kimara Cretak/Kira Nerys,14,166,629,5945,37038
+Corat Damar/Elim Garak,14,402,950,17676,129378
 Julian Bashir/Martok,13,1352,1799,19426,189697
+Worf/non-cast,13,244,1172,19383,151734
 Kira Meru/Skrain Dukat,13,121,193,3395,80774
-Elim Garak/Quark,12,256,642,7356,45884
-Keevan/Remata'Klan,12,49,218,2627,69177
-Elim Garak/Jadzia Dax,11,567,1232,21491,64193
+Elim Garak/Quark,11,254,625,7198,45124
 Elim Garak/Worf,11,116,574,6788,29882
+Keevan/Remata'Klan,11,43,201,1986,48179
 Natima Lang/Quark,11,191,1438,16371,58095
-Ezri Dax/Tora Ziyal,10,260,327,4663,92364
 Q/non-cast,10,243,710,9634,68937
 Grilka/Quark,10,144,1231,11180,46727
-Elim Garak/Kira Nerys,10,165,611,11923,69727
+Jadzia Dax/Kira Nerys/Lenara Kahn,10,10,124,3484,6510
+Ezri Dax/Tora Ziyal,10,260,327,4663,92364
 Benjamin Sisko/non-cast,10,44,192,4281,162928
 Odo/Weyoun,10,87,539,7488,34122
-Keevan/Weyoun,9,63,256,2573,56832
 Sarina Douglas/non-cast,9,91,394,5419,16034
 Elim Garak/Miles O'Brien,9,228,705,6478,60536
 Skrain Dukat/Winn Adami,9,55,120,2256,74649
-Tora Ziyal/non-cast,8,78,367,3103,25304
-Keevan/non-cast,8,25,105,2857,98229
-Julian Bashir/Sarina Douglas,8,30,205,2518,20056
-Hanok/Quark,8,131,779,6084,18719
-Ezri Dax/Worf,8,168,1173,16117,24071
-Elim Garak/Ezri Dax,8,24,97,3435,46224
-Benjamin Sisko/Elim Garak,8,344,575,5946,40655
+Elim Garak/Kira Nerys,9,155,577,11667,62911
+Keevan/Weyoun,8,59,230,2246,51992
 Kira Nerys/Tora Ziyal,8,33,287,6729,24350
-Elim Garak/Keiko O'Brien,7,128,286,4816,22950
-Nilani Kahn/Torias Dax,7,54,184,2323,48456
+Keevan/non-cast,8,25,105,2857,98229
+Hanok/Quark,8,131,779,6084,18719
+Elim Garak/Ezri Dax/Julian Bashir,8,24,97,3435,46224
+Julian Bashir/Sarina Douglas,8,30,205,2518,20056
+Tora Ziyal/non-cast,8,78,367,3103,25304
+Benjamin Sisko/Elim Garak,8,344,575,5946,40655
+Ezri Dax/Worf,8,168,1173,16117,24071
+Miles O'Brien/non-cast,7,27,154,1568,19373
+Emony Dax/non-cast,7,53,227,3034,18875
+Quark/Worf,7,124,427,4216,21349
+Elim Garak/Julian Bashir/Odo,7,33,354,3718,9965
 Julian Bashir/Luther Sloan,7,97,212,1756,13822
 Julian Bashir/Worf,7,109,218,2523,15803
-Emony Dax/non-cast,7,53,227,3034,18875
-Kira Nerys/Miles O'Brien,7,87,362,4494,31861
-Julian Bashir/Melora Pazlar,7,858,1776,17366,81284
-Miles O'Brien/non-cast,7,27,154,1568,19373
-Quark/Worf,7,124,427,4216,21349
-Ezri Dax/Jadzia Dax,7,54,399,4375,18745
 Shakaar Edon/non-cast,7,73,147,1330,62093
+Julian Bashir/Melora Pazlar,7,858,1776,17366,81284
 Pel/Quark,7,100,198,1812,84034
+Nilani Kahn/Torias Dax,7,54,184,2323,48456
+Kira Nerys/Miles O'Brien,7,87,362,4494,31861
 Elim Garak/Pythas Lok,6,167,286,5969,89755
-Nog/non-cast,6,523,486,9437,108719
+Elim Garak/Jadzia Dax,6,125,497,5758,14994
 Jack/Kelas Parmak,6,40,171,1939,24026
-Ezri Dax/Quark,6,109,214,3517,25750
+Ezri Dax/Jadzia Dax,6,53,392,4192,18541
+Elim Garak/Keiko O'Brien,6,122,280,4747,22239
 Elim Garak/Palandine,6,181,467,7070,82472
-Benjamin Sisko/Jennifer Sisko,5,57,308,2536,21305
-Julian Bashir/Palis Delon,5,791,1316,11392,52400
-Ishka/Lwaxana Troi,5,51,143,1208,17919
-Thomas Riker/non-cast,5,34,71,1779,99935
-Skrain Dukat/Tora Ziyal,5,32,186,12969,9800
+Nog/non-cast,6,523,486,9437,108719
+Ezri Dax/Quark,6,109,214,3517,25750
 Benjamin Sisko/Curzon Dax,5,21,101,910,8899
 Curzon Dax/Jadzia Dax,5,35,218,2133,7515
+Kira Nerys/Odo/Quark,5,16,122,1095,4782
+Thomas Riker/non-cast,5,34,71,1779,99935
+Skrain Dukat/Tora Ziyal,5,32,186,12969,9800
 Julian Bashir/Tora Ziyal,5,223,333,5058,64727
+Julian Bashir/Palis Delon,5,791,1316,11392,52400
+Ishka/Lwaxana Troi,5,51,143,1208,17919
+Benjamin Sisko/Jennifer Sisko,5,57,308,2536,21305
+Julian Bashir/Keiko O'Brien,5,47,286,4122,7025
 Jack/Sarina Douglas,5,224,782,11383,113451
-Felix/Julian Bashir,4,755,751,7532,64897
-Martok/non-cast,4,40,95,2156,32423
-Ezri Dax/Leeta,4,24,88,1286,8579
-Yelgrun/non-cast,4,19,72,818,9609
+Kira Nerys/Lupaza,4,59,183,1815,10929
+Elim Garak/Julian Bashir/Tora Ziyal,4,199,288,4793,61658
 Benjamin Sisko/Quark,4,55,187,1750,27426
 Kira Nerys/Leeta,4,54,394,7244,18815
-Eris/Weyoun,4,12,36,1062,143949
-Female Changeling/Weyoun,4,14,101,2291,14219
-Kira Nerys/Lupaza,4,59,183,1815,10929
-Jake Sisko/non-cast,4,20,110,3241,48287
-Kira Nerys/Quark,4,12,88,1093,4226
-Jadzia Dax/Keiko O'Brien,4,95,394,12520,169144
 Female Changeling/Odo,4,18,48,1111,24700
 Remata'Klan/non-cast,4,15,45,1173,60045
-Benjamin Sisko/Ezri Dax,4,26,73,1346,13421
+Ezri Dax/Leeta,4,24,88,1286,8579
 Morn/non-cast,4,43,174,3016,7696
 Ezri Dax/Jake Sisko,4,24,107,1410,8673
-Felix/non-cast,3,728,537,5871,51063
-Boheeka/Quark,3,51,328,2194,7753
-Jack/Julian Bashir,3,25,74,928,50233
-Furel/Lupaza,3,43,38,399,55247
-Julian Bashir/Weyoun,3,8,18,420,26022
-Kelas Parmak/non-cast,3,67,360,2016,15334
-Benjamin Sisko/Odo,3,12,43,1038,42634
-Captain Solok/non-cast,3,16,98,1377,16371
-Arissa/Odo,3,0,11,291,1413
+Yelgrun/non-cast,4,19,72,818,9609
+Felix/Julian Bashir,4,755,751,7532,64897
+Elim Garak/Jadzia Dax/Julian Bashir,4,362,554,13508,38027
+Female Changeling/Weyoun,4,14,101,2291,14219
+Kira Nerys/Quark,4,12,88,1093,4226
+Eris/Weyoun,4,12,36,1062,143949
+Martok/non-cast,4,40,95,2156,32423
+Jake Sisko/non-cast,4,20,110,3241,48287
 Keiko O'Brien/non-cast,3,28,63,867,4307
-Rotan'talag/Weyoun,3,6,64,903,4415
-Benjamin Sisko/Michael Eddington,3,28,268,4587,16398
-Eris/Luaran,3,25,56,784,22530
-Iloja of Prim/Tobin Dax,3,39,216,805,5541
-Keevan/Yelgrun,3,7,56,405,5008
-Enabran Tain/Julian Bashir,3,291,424,6207,45033
-Mekor Dukat/non-cast,3,1,23,223,4737
-Aamin Marritza/Iliana Ghemor,3,6,34,455,6344
-Tora Naprem/non-cast,3,164,134,2887,69515
-Vreenak/non-cast,3,37,25,851,29732
-Alexander Rozhenko/Nog,3,11,50,566,8946
-Goran'Agar/Julian Bashir,3,71,217,1149,15210
-Corat Damar/Ezri Dax,3,17,91,1256,5881
-Julian Bashir/Julian Bashir,3,33,220,2441,16301
+Captain Solok/non-cast,3,16,98,1377,16371
 Corat Damar/Tora Ziyal,3,178,106,3202,106717
-Spock/non-cast,3,28,356,7269,6576
-Enabran Tain/non-cast,2,2,15,626,5021
-Enabran Tain/Kelas Parmak,2,2,39,436,7713
-Dax/non-cast,2,10,52,776,9032
-Reese/non-cast,2,13,16,418,53560
-Natima Lang/Tora Naprem,2,4,26,703,4910
-Jadzia Dax/Melora Pazlar,2,2,29,197,994
-Jake Sisko/Kesha,2,64,844,6962,4932
-Enabran Tain/Martok,2,78,256,1493,4208
-Julian Bashir/Q,2,9,33,976,31652
-Amsha Bashir/Richard Bashir,2,18,233,2507,4369
-Kira Nerys/Winn Adami,2,16,26,147,1459
-Laas/Odo,2,10,45,279,200
-Benjamin Sisko/Vic Fontaine,2,22,30,328,3206
-Dax/Lenara Kahn,2,126,116,2790,83933
-Gilora Rejal/non-cast,2,4,44,686,3628
-Kilana/non-cast,2,17,27,520,3541
-Quark/Vic Fontaine,2,15,64,349,2068
-Keevan/Skrain Dukat,2,77,90,1625,48981
-Winn Adami/non-cast,2,4,15,351,3812
-Jaro Essa/Winn Adami,2,29,30,653,20570
-Bareil Antos/Benjamin Sisko,2,31,68,940,3611
-Borath/non-cast,2,7,43,668,3420
-Tom Paris/non-cast,2,229,231,4543,64705
-Corat Damar/Keevan,2,23,103,701,7828
-Jadzia Dax/Odo,2,25,203,2904,16957
+Kelas Parmak/non-cast,3,67,360,2016,15334
+Julian Bashir/Julian Bashir,3,33,220,2441,16301
+Benjamin Sisko/Odo,3,12,43,1038,42634
+Vreenak/non-cast,3,37,25,851,29732
+Jadzia Dax/Keiko O'Brien,3,89,375,12132,168233
+Rotan'talag/Weyoun,3,6,64,903,4415
+Jack/Julian Bashir,3,25,74,928,50233
+Corat Damar/Skrain Dukat/Weyoun,3,23,111,1275,9866
+Benjamin Sisko/Michael Eddington,3,28,268,4587,16398
+Elim Garak/Julian Bashir/Miles O'Brien,3,40,535,5126,7481
+Eris/Luaran,3,25,56,784,22530
+Enabran Tain/Julian Bashir,3,291,424,6207,45033
+Julian Bashir/non-cast/non-cast,3,13,99,2372,58669
+Felix/non-cast,3,728,537,5871,51063
+Julian Bashir/Weyoun,3,8,18,420,26022
+Corat Damar/Ezri Dax,3,17,91,1256,5881
+Arissa/Odo,3,0,11,291,1413
+Keevan/Yelgrun,3,7,56,405,5008
+Furel/Lupaza,3,43,38,399,55247
+Alexander Rozhenko/Nog,3,11,50,566,8946
+Aamin Marritza/Iliana Ghemor,3,6,34,455,6344
+Jadzia Dax/Kira Nerys/Worf,3,62,160,2051,14345
+Mekor Dukat/non-cast,3,1,23,223,4737
+Jadzia Dax/Julian Bashir/Worf,3,26,59,517,2441
+Tora Naprem/non-cast,3,164,134,2887,69515
+Iloja of Prim/Tobin Dax,3,39,216,805,5541
+Goran'Agar/Julian Bashir,3,71,217,1149,15210
+Boheeka/Quark,3,51,328,2194,7753
 Kira Nerys/Worf,2,25,110,985,17046
-Corat Damar/Mila Garak,2,73,201,970,4592
-Ishka/Zek,2,2,22,387,2357
-Curzon Dax/Quark,2,41,229,1362,3126
+Enabran Tain/Kelas Parmak,2,2,39,436,7713
+Dax/Lenara Kahn,2,126,116,2790,83933
+Opaka/Winn Adami,2,7,48,804,5395
+Worf/non-cast/non-cast,2,15,29,1065,109737
+Laas/Odo,2,10,45,279,200
+Quark/Vic Fontaine,2,15,64,349,2068
+Gilora Rejal/non-cast,2,4,44,686,3628
+Joseph Sisko/Sarah Sisko,2,5,49,805,4111
+Benjamin Sisko/Vic Fontaine,2,22,30,328,3206
+Kira Nerys/Winn Adami,2,16,26,147,1459
+Natima Lang/Tora Naprem,2,4,26,703,4910
+Borath/non-cast,2,7,43,668,3420
+Joseph Sisko/non-cast,2,4,55,925,4016
+Corat Damar/Keevan,2,23,103,701,7828
+Reese/non-cast,2,13,16,418,53560
+Jadzia Dax/Melora Pazlar,2,2,29,197,994
+Elim Garak/Julian Bashir/Skrain Dukat,2,8,58,679,1472
+Elim Garak/Enabran Tain,2,7,34,1485,2166
 Chalan Aroya/Odo,2,23,121,1442,30439
-Corat Damar/Julian Bashir,2,11,50,710,2407
+Enabran Tain/Martok,2,78,256,1493,4208
+Julian Bashir/Odo,2,18,81,3254,65008
+Julian Bashir/Q,2,9,33,976,31652
+Jaro Essa/Winn Adami,2,29,30,653,20570
+Corat Damar/Skrain Dukat/non-cast,2,2,37,411,3005
 Grilka/Natima Lang,2,12,26,463,3060
+Ezri Dax/Jadzia Dax/Kira Nerys,2,25,275,3104,8812
+Jadzia Dax/Odo,2,25,203,2904,16957
+Jadzia Dax/Kira Nerys/Odo,2,24,183,2808,15439
+Amsha Bashir/Richard Bashir,2,18,233,2507,4369
+Keevan/Skrain Dukat,2,77,90,1625,48981
+Dax/non-cast,2,10,52,776,9032
+Corat Damar/Julian Bashir,2,11,50,710,2407
+Curzon Dax/Quark,2,41,229,1362,3126
+Enabran Tain/non-cast,2,2,15,626,5021
+Kilana/non-cast,2,17,27,520,3541
+Jake Sisko/Kesha,2,64,844,6962,4932
+Dax/Worf,2,0,3,92,4835
+Kira Nerys/non-cast/non-cast,2,31,55,560,9319
+Benjamin Sisko/Ezri Dax,2,4,11,650,4757
+K'Ehleyr/Worf,2,75,152,3516,4457
+Elim Garak/Julian Bashir/Keiko O'Brien/Miles O'Brien,2,23,40,439,4747
+Barkan Lokar/Elim Garak/Palandine,2,77,250,5799,32752
+Odo/Worf,2,20,91,900,4501
 Ishka/Keldar,2,16,40,322,9825
 Akellen Macet/Elim Garak,2,3,15,1289,26198
-Joseph Sisko/non-cast,2,4,55,925,4016
-Dax/Worf,2,0,3,92,4835
-Leeta/Winn Adami,2,18,55,522,1758
-Curzon Dax/Julian Bashir,2,698,507,5425,42320
-Julian Bashir/Odo,2,18,81,3254,65008
-Elim Garak/Lwaxana Troi,2,33,135,1272,4505
-Opaka/Winn Adami,2,7,48,804,5395
-Dax/Julian Bashir,2,32,94,2902,52772
+Corat Damar/Mila Garak,2,73,201,970,4592
 Morn/Quark,2,37,182,1259,4870
-Odo/Worf,2,20,91,900,4501
-Elim Garak/Enabran Tain,2,7,34,1485,2166
-Barkan Lokar/Elim Garak,2,77,250,5799,32752
-Kasidy Yates/Keiko O'Brien,2,5,22,225,2569
-K'Ehleyr/Worf,2,75,152,3516,4457
+Ishka/Zek,2,2,22,387,2357
+Elim Garak/Lwaxana Troi,2,33,135,1272,4505
+Elim Garak/Julian Bashir/Julian Bashir,2,30,153,1705,14853
 Benjamin Sisko/Rom,2,16,49,478,2910
-Joseph Sisko/Sarah Sisko,2,5,49,805,4111
-Corat Damar/Quark,1,5,38,300,2534
-Han Solo/Luke Skywalker,1,15,24,242,1483
-Eris/Kilana,1,4,17,101,1668
-Alexander Rozhenko/Jake Sisko,1,2,20,131,4143
-Deral/Julian Bashir,1,8,63,321,3473
-Rom/non-cast,1,44,27,367,45032
-Ray Vecchio/non-cast,1,135,397,4841,7
-Julian Bashir/Lwaxana Troi,1,674,452,5258,41243
-Jadzia Dax/Kilana,1,28,53,828,22711
-The Doctor/non-cast,1,4,33,235,377
-Rose Tyler/non-cast,1,4,33,235,377
-Ezri Dax/Kilana,1,0,2,30,281
-Kaga/Quark,1,47,144,1416,17486
-Omet'iklan/Weyoun,1,1,28,287,1958
-Kelas Parmak/Tora Ziyal,1,0,11,313,2498
-Julian Bashir/Winn Adami,1,9,13,54,549
-Elim Garak/Joseph Sisko,1,12,16,57,327
-Ezri Dax/Nog,1,4,7,75,4123
-Kela Idaris/non-cast,1,4,3,47,9074
-Alexander Rozhenko/Ch'Targh,1,2,5,68,1093
-Jadzia Dax/K'Ehleyr,1,17,20,162,100
-Ziranne Idaris/non-cast,1,4,3,47,9074
-Kira Nerys/Tekeny Ghemor,1,2,1,18,100
-Brunt/non-cast,1,8,25,376,4429
-Drex/Elim Garak,1,3,65,789,3337
-Gor/Weyoun,1,3,24,281,1081
-Athra Dukat/Skrain Dukat,1,27,36,266,4874
-Quark/Skrain Dukat,1,10,38,438,3430
-Mavek/non-cast,1,33,33,824,44259
-Julian Bashir/Kaga,1,28,112,403,1224
-Benjamin Sisko/Weyoun,1,3,12,85,2797
-Amsha Bashir/Elim Garak,1,83,40,707,12174
-Benjamin Sisko/Miles O'Brien,1,2,1,52,410
-Benjamin Sisko/Q,1,0,0,27,890
-Elim Garak/Richard Bashir,1,83,40,707,12174
-Jasper Hale/Rosalie Hale,1,3,5,130,378
-Benjamin Sisko/Captain Solok,1,3,15,202,351
-Ezri Dax/Garak,1,0,0,151,4204
-Alexander Rozhenko/Julian Bashir,1,118,99,960,7143
-Jadzia Dax/Kasidy Yates,1,7,7,235,5461
-Julian Bashir/Lieutenant Watley,1,20,30,132,2534
-Luaran/non-cast,1,6,17,450,2535
-Kaga/non-cast,1,2,9,140,1191
-Benjamin Sisko/Tora Ziyal,1,13,33,692,3757
-Elim Garak/Kaga,1,28,112,403,1224
+Winn Adami/non-cast,2,4,15,351,3812
+Julian Bashir/Leeta/Rom,2,74,82,460,15441
+Leeta/Winn Adami,2,18,55,522,1758
 Gelnon/non-cast,1,6,17,450,2535
 Eris/non-cast,1,6,17,450,2535
-Benjamin Sisko/Dax,1,1,19,110,2030
-Kimara Cretak/T'Rul,1,13,15,333,1273
-Kasidy Yates/Weyoun,1,3,12,85,2797
-Kathryn Janeway/non-cast,1,3,29,566,12399
-Curzon Dax/Elim Garak,1,17,68,396,3229
 Deyos/non-cast,1,6,17,450,2535
-Bareil Antos/Morn,1,25,65,477,11314
+Julian Bashir/Kaga,1,28,112,403,1224
+Luaran/non-cast,1,6,17,450,2535
+Corat Damar/Ezri Dax/Kira Nerys/Weyoun,1,11,34,404,3815
+Elim Garak/Kaga,1,28,112,403,1224
+Benjamin Sisko/Tora Ziyal,1,13,33,692,3757
 Kira Nerys/Weyoun,1,11,34,404,3815
-Benjamin Sisko/Morn,1,0,1,37,947
-Boday/Julian Bashir,1,6,30,283,19273
-Weyoun/Weyoun,1,2,8,111,4237
-Corat Damar/Reader,1,0,26,347,1943
-Ellis Gareth/Julian Bashir,1,5,56,538,8569
+Kira Nerys/Odo/non-cast,1,0,8,724,8392
+Grilka/Natima Lang/Quark,1,10,21,394,2861
+Benjamin Sisko/Morn/Zek/non-cast,1,0,1,37,947
+Jadzia Dax/Julian Bashir/non-cast,1,4,4,153,3706
+Keevan/Remata'Klan/non-cast,1,6,17,641,20998
+Rom/non-cast,1,44,27,367,45032
 Curzon Dax/non-cast,1,5,18,98,1491
-Dax/Garak,1,8,37,350,3254
 Torias Dax/non-cast,1,5,18,98,1491
-Cox/non-cast,1,12,9,158,55120
+Kimara Cretak/T'Rul,1,13,15,333,1273
+Benjamin Sisko/Miles O'Brien,1,2,1,52,410
+Elim Garak/Ezri Dax/Kira Nerys/non-cast,1,0,0,151,4204
+Julian Bashir/Lieutenant Watley,1,20,30,132,2534
+Mavek/non-cast,1,33,33,824,44259
+Benjamin Sisko/Curzon Dax/Jadzia Dax,1,5,17,292,868
+Jadzia Dax/Kilana,1,28,53,828,22711
+Kaga/non-cast,1,2,9,140,1191
+Jadzia Dax/Kasidy Yates,1,7,7,235,5461
+Benjamin Sisko/Elim Garak/Ezri Dax/Jadzia Dax/Julian Bashir/Kasidy Yates/Keiko O'Brien/Kira Nerys/Leeta/Miles O'Brien/Odo/Quark/Rom/Worf,1,2,4,89,180
+Benjamin Sisko/Q,1,0,0,27,890
+Elim Garak/Julian Bashir/Keiko O'Brien,1,8,14,291,2864
 Cox/Kira Nerys,1,12,9,158,55120
-Kira Nerys/Natima Lang,1,10,25,261,5649
+Cox/non-cast,1,12,9,158,55120
+Dax/Elim Garak/Julian Bashir/Worf,1,8,37,350,3254
+Skrain Dukat/Weyoun/Weyoun,1,2,8,111,4237
+Weyoun/Weyoun,1,2,8,111,4237
+Kasidy Yates/Keiko O'Brien/Miles O'Brien,1,2,7,23,2218
+Boday/Julian Bashir,1,6,30,283,19273
+Bareil Antos/Morn,1,25,65,477,11314
+Bareil Antos/Benjamin Sisko/Elim Garak/Ezri Dax/Jadzia Dax/Julian Bashir/Kasidy Yates/Keiko O'Brien/Kira Nerys/Leeta/Miles O'Brien/Odo/Quark/Rom/Shakaar Edon/Worf,1,2,4,89,180
+Curzon Dax/Elim Garak/Julian Bashir/Odo,1,17,68,396,3229
+Elim Garak/Julian Bashir/Quark,1,7,46,958,21537
+Curzon Dax/Elim Garak/Odo,1,17,68,396,3229
+Alexander Rozhenko/Jake Sisko/Nog,1,2,20,131,4143
+Ezri Dax/Kilana,1,0,2,30,281
+Elim Garak/Ezri Dax,1,0,19,263,3129
+Elim Garak/Joseph Sisko,1,12,16,57,327
+Elim Garak/Julian Bashir/Weyoun,1,9,6,103,6837
+Kela Idaris/non-cast,1,4,3,47,9074
+Ziranne Idaris/non-cast,1,4,3,47,9074
+Corat Damar/Elim Garak/non-cast,1,2,11,64,1062
+Julian Bashir/Winn Adami,1,9,13,54,549
+Kira Nerys/Tekeny Ghemor,1,2,1,18,100
+Alexander Rozhenko/Julian Bashir,1,118,99,960,7143
+Quark/Skrain Dukat,1,10,38,438,3430
+Julian Bashir/Martok/Sirella,1,21,65,558,7347
+Elim Garak/Richard Bashir,1,83,40,707,12174
+Benjamin Sisko/Captain Solok,1,3,15,202,351
+Benjamin Sisko/Curzon Dax/non-cast,1,3,15,202,351
+Kasidy Yates/Keiko O'Brien,1,3,15,202,351
+Benjamin Sisko/Dax,1,1,19,110,2030
+Elim Garak/Kira Nerys/Worf,1,10,34,256,6816
+Ellis Gareth/Julian Bashir,1,5,56,538,8569
+Eris/Kilana,1,4,17,101,1668
+Deral/Julian Bashir,1,8,63,321,3473
 Pel/non-cast,1,5,10,127,7900
-Leeta/Quark,1,2,10,166,428
-Elim Garak/Winn Adami,1,0,7,55,2711
-Emergency Medical Hologram Mark II/non-cast,1,51,192,3908,331
-Ishka/Jadzia Dax,1,17,78,1298,1563
-Odo/Skrain Dukat,1,12,50,2681,51517
-Elim Garak/Opaka,1,2,18,352,996
-Elim Garak/Luther Sloan,1,15,45,1223,27606
-Lauren/non-cast,1,5,38,305,967
+Gor/Weyoun,1,3,24,281,1081
+Alexander Rozhenko/Ch'Targh,1,2,5,68,1093
+Ezri Dax/Nog,1,4,7,75,4123
+Curzon Dax/Julian Bashir/Odo,1,674,452,5258,41243
+Julian Bashir/Lwaxana Troi,1,674,452,5258,41243
+Elim Garak/Julian Bashir/Kaga,1,24,76,473,1963
+Benjamin Sisko/Kasidy Yates/Weyoun,1,3,12,85,2797
+Benjamin Sisko/Weyoun,1,3,12,85,2797
+Kasidy Yates/Weyoun,1,3,12,85,2797
+Benjamin Sisko/Ezri Dax/Kasidy Yates,1,20,58,607,8484
+Curzon Dax/Julian Bashir,1,24,55,167,1077
+Elim Garak/Keiko O'Brien/Kelas Parmak/Miles O'Brien,1,6,6,69,711
+Amsha Bashir/Elim Garak,1,83,40,707,12174
+Amsha Bashir/Elim Garak/Richard Bashir,1,83,40,707,12174
+Brunt/non-cast,1,8,25,376,4429
+Julian Bashir/Keiko O'Brien/Kira Nerys/Miles O'Brien,1,2,17,361,880
+Corat Damar/Quark,1,5,38,300,2534
+Grilka/Lenara Kahn/non-cast,1,12,37,401,3524
 Jadzia Dax/Jennifer Sisko,1,3,21,566,1748
 Vash/non-cast,1,11,54,1332,5256
 Borath/Weyoun,1,4,31,1436,15650
-Throlo Sh'shirros/ToloS | Qolar,1,51,192,3908,331
-Luaran/Yelgrun,1,5,26,411,6667
-Julianna/non-cast,1,158,584,18922,105177
-Lantash/Sam Carter,1,158,584,18922,105177
-Martouf/Sam Carter,1,158,584,18922,105177
+Emergency Medical Hologram Mark II/non-cast,1,51,192,3908,331
+Elim Garak/Quark/non-cast,1,2,17,158,760
 Iliana Ghemor/Tora Ziyal,1,15,51,819,6999
 Ezri Dax/Vic Fontaine,1,20,12,329,47139
-Jean-Luc Picard/non-cast,1,35,168,3811,6300
 Ezri Dax/Lauren,1,17,63,421,4017
-Zek/background Leeta,1,114,153,2218,25878
-Ezri Dax/Skrain Dukat,1,9,15,381,1863
-Deyos/Weyoun,1,5,26,411,6667
-Skrain Dukat/Vreenak,1,29,13,511,18931
-Dax/Kira Nerys,1,1,27,544,238
-Martok/Sirella,1,0,26,335,637
-Elim Garak/Keevan,1,3,53,841,3577
-Ryan Ross/Spencer Smith,1,12,88,2692,67918
-Victoria Asher/non-cast,1,12,88,2692,67918
-Mareel/Verad,1,0,5,143,191
-Kira Nerys/Vic Fontaine,1,6,22,181,6741
-Sikozu Svala Shanti Sugaysi Shanu/non-cast,1,23,188,3322,5754
-Troy Barnes/non-cast,1,23,188,3322,5754
-Alexander Rozhenko/Lauren,1,181,352,7227,74151
-Dax/Jadzia Dax,1,0,14,333,200
+Leeta/Zek/non-cast,1,114,153,2218,25878
+Corat Damar/Gul Rusot,1,73,206,5494,31413
+Gowron/Julian Bashir,1,3,19,332,13872
+Elim Garak/Julian Bashir/Kira Nerys,1,3,68,684,464
+Bareil Antos/Julian Bashir,1,1,17,292,24232
+Miles O'Brien/Worf,1,4,25,729,2576
+Jadzia Dax/Jadzia Dax,1,5,25,288,596
+Lwaxana Troi/Odo/Quark,1,16,86,663,1181
+Lwaxana Troi/Quark,1,16,86,663,1181
+Elim Garak/Morn,1,9,19,181,397
+Elim Garak/Worf/non-cast,1,10,72,471,2252
+Kimara Cretak/non-cast,1,3,9,273,1835
+Jack/non-cast,1,13,36,272,5061
+Benjamin Sisko/Jennifer Sisko/Kasidy Yates,1,32,243,1869,4866
+Lauren/non-cast,1,5,38,305,967
+Elim Garak/Luther Sloan,1,15,45,1223,27606
+Odo/Skrain Dukat,1,12,50,2681,51517
+Dax/Julian Bashir/Kira Nerys/Odo,1,12,50,2681,51517
+Elim Garak/Opaka,1,2,18,352,996
+Ishka/Jadzia Dax,1,17,78,1298,1563
+Jennifer Sisko/Miles O'Brien,1,1,48,847,1580
 Bareil Antos/Winn Adami,1,0,10,906,39834
-William Riker/non-cast,1,13,57,1682,1998
+Dax/Kira Nerys,1,1,27,544,238
+Kira Nerys/Vic Fontaine,1,6,22,181,6741
+Elim Garak/Keevan,1,3,53,841,3577
+Martok/Sirella,1,0,26,335,637
+Ezri Dax/Jadzia Dax/non-cast,1,1,7,183,204
+Mareel/Verad,1,0,5,143,191
+Alexander Rozhenko/Lauren,1,181,352,7227,74151
 Boday/Jadzia Dax,1,55,835,6919,4652
 Jake Sisko/Laira,1,55,835,6919,4652
 Jake Sisko/Mardah,1,55,835,6919,4652
-Jennifer Sisko/Miles O'Brien,1,1,48,847,1580
+Jadzia Dax/Keiko O'Brien/Kira Nerys,1,6,19,388,911
 Prinadora/Rom,1,0,3,275,1405
 Lela Dax/non-cast,1,0,7,446,3128
-Corat Damar/Gul Rusot,1,73,206,5494,31413
-Lenara Kahn/background Grilka,1,12,37,401,3524
-Julian Bashir/Tom Paris,1,9,50,1323,41781
+Dax/Jadzia Dax,1,0,14,333,200
+Deyos/Weyoun,1,5,26,411,6667
+Luaran/Yelgrun,1,5,26,411,6667
+Ezri Dax/Skrain Dukat,1,9,15,381,1863
+Julian Bashir/Kukalaka,1,0,18,261,2610
+Tekeny Ghemor/non-cast,1,53,39,453,13620
+Keevan/Weyoun/non-cast,1,4,26,327,4840
+Elim Garak/Winn Adami,1,0,7,55,2711
+Elim Garak/Julian Bashir/Miles O'Brien/non-cast/non-cast,1,3,11,267,694
+Elim Garak/Julian Bashir/non-cast/non-cast,1,3,11,267,694
+Bareil Antos/Benjamin Sisko,1,29,64,851,3431
+Elim Garak/Kai Winn,1,29,64,851,3431
+Michael Eddington/Rebecca Sullivan,1,8,2,95,10056
+Deral/Jadzia Dax,1,0,8,79,552
+Keiko O'Brien/Kira Nerys/Miles O'Brien/non-cast,1,14,103,798,6587
+Gowron/non-cast,1,0,30,1849,792
+Elim Garak/Procal Dukat,1,22,120,553,1350
+Skrain Dukat/Vreenak/non-cast,1,29,13,511,18931
+Kira Nerys/Natima Lang,1,10,25,261,5649
+Kai Winn/Skrain Dukat,1,2,11,101,1083
+Kaga/Quark,1,47,144,1416,17486
+Omet'iklan/Weyoun,1,1,28,287,1958
+Jadzia Dax/Julian Bashir/Kira Nerys,1,22,79,1097,4347
+Dax/Julian Bashir,1,20,44,221,1255
+Elim Garak/Kelas Parmak/Tora Ziyal,1,0,11,313,2498
+Kelas Parmak/Tora Ziyal,1,0,11,313,2498
+Elim Garak/Julian Bashir/Morn,1,31,47,208,1394
+Jadzia Dax/K'Ehleyr/Worf,1,17,20,162,100
+Drex/Elim Garak,1,3,65,789,3337
+Athra Dukat/Skrain Dukat,1,27,36,266,4874
+Lwaxana Troi/Mora Pol,1,2,22,506,16118
 Elim Garak/Q,1,0,6,152,10493
+Elim Garak/Skrain Dukat/Tora Naprem,1,2,23,461,1144
+Jadzia Dax/Kira Nerys/Leeta/Lenara Kahn,1,2,7,111,516
+Elim Garak/Kelas Parmak/Pythas Lok,1,8,31,269,5168
+Corat Damar/Elim Garak/Julian Bashir,1,1,9,120,503
+Gilora Rejal/Nal Dejar,1,3,14,225,1239
+Leeta/Quark,1,2,10,166,428
+Corat Damar/Niala Damar,1,2,17,192,1442
+Kelas Parmak/Pythas Lok,1,0,37,426,878
+Miles O'Brien/non-cast/non-cast,1,4,15,147,1002
+Quark/Vash,1,9,140,868,1458
+Jadzia Dax/Julian Bashir/Kira Nerys/non-cast,1,0,12,227,447
+Keevan/Kilana,1,2,12,93,2955
+Jadzia Dax/Julian Bashir/Leeta,1,2,22,629,1249
+Elim Garak/Skrain Dukat/Weyoun,1,2,26,327,517
+Elim Garak/Jadzia Dax/non-cast,1,80,181,2225,11172
 Elim Garak/Jack,1,7,24,180,7064
 Corat Damar/Jadzia Dax,1,13,28,1026,2894
 Athra Dukat/Tora Naprem,1,0,7,148,1193
@@ -326,35 +402,4 @@ Kira Nerys/Kira Reon,1,11,11,145,12754
 Alexander Rozhenko/non-cast,1,9,20,192,2954
 Kira Meru/non-cast,1,10,14,255,20877
 Kira Nerys/Lenara Kahn,1,0,32,532,0
-Lwaxana Troi/Mora Pol,1,2,22,506,16118
-Gowron/Julian Bashir,1,3,19,332,13872
-Elim Garak/Kai Winn,1,29,64,851,3431
-Michael Eddington/Rebecca Sullivan,1,8,2,95,10056
-Deral/Jadzia Dax,1,0,8,79,552
-Kira Nerys/OFC,1,16,43,373,6318
-Gowron/non-cast,1,0,30,1849,792
-Dutch | Yalena Yardeen/non-cast,1,0,13,195,3214
-Tuvok (Star Trek)/non-cast,1,0,12,270,31038
-Elim Garak/Procal Dukat,1,22,120,553,1350
-Keevan/Kilana,1,2,12,93,2955
-Gerard Way/non-cast,1,4,9,134,10852
-Quark/Vash,1,9,140,868,1458
-Miles O'Brien/Owen Lars,1,4,15,147,1002
-Bareil Antos/Julian Bashir,1,1,17,292,24232
-Miles O'Brien/Worf,1,4,25,729,2576
-Jadzia Dax/Jadzia Dax,1,5,25,288,596
-Vislor Turlough/non-cast,1,2,10,644,2118
-Lwaxana Troi/Quark,1,16,86,663,1181
-Elim Garak/Morn,1,9,19,181,397
-Elim Garak/Worf (Star Trek: TNG,1,10,72,471,2252
-Kimara Cretak/non-cast,1,3,9,273,1835
-Jack/non-cast,1,13,36,272,5061
-Julian Bashir/Kukalaka,1,0,18,261,2610
-Tekeny Ghemor/non-cast,1,53,39,453,13620
-Kai Winn/Skrain Dukat,1,2,11,101,1083
-Gilora Rejal/Nal Dejar,1,3,14,225,1239
-Corat Damar/Niala Damar,1,2,17,192,1442
-Kelas Parmak/Pythas Lok,1,0,37,426,878
-Male OC/non-cast,1,12,122,1126,1998
-justice league/non-cast,1,0,0,109,1005
 Julian Bashir/Lauren,1,6,10,37,4345
