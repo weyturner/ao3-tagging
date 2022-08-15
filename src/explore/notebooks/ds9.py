@@ -17,6 +17,7 @@
 #   df = ds9.df()
 
 import pandas as pd
+import re
 
 # https://pandas.pydata.org/pandas-docs/stable/user_guide/categorical.html
 #
@@ -153,3 +154,20 @@ def df(csv='../../../data/database/20220612.csv',
     pd.options.display.max_rows = 10000
 
     return df
+
+
+# Convert a table heading to a filename
+# The project has the convention
+#  <generating-program>-<table>.csv
+def csvfilename(*words):
+    filename=''
+    seperator=''
+    for w in words:
+        # Make w suitable for a file name
+        w = re.sub(r'[^a-zA-z0-9]', '-', w)
+        w = re.sub(r'\-+', '-', w)
+        w = w.lower()
+        filename = filename + seperator + w
+        seperator = '-'
+    filename = filename + '.csv'
+    return filename
