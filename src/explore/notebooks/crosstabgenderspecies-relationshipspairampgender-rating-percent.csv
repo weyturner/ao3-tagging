@@ -1,0 +1,20 @@
+relationshipspairampgender,General Audiences,Teen And Up Audiences,Mature,Explicit,Not Rated
+Male & Male,40.400000000000006,36.3,11.700000000000001,8.3,3.3000000000000003
+Female & Male,43.0,35.099999999999994,11.600000000000001,7.000000000000001,3.3000000000000003
+Male & unknown,46.6,33.0,8.7,8.3,3.4000000000000004
+Female & Female,47.5,38.0,8.9,1.9,3.8
+Female & unknown,55.300000000000004,27.6,14.499999999999998,2.6,0.0
+unknown & unknown,38.2,40.8,17.1,2.6,1.3
+Female & Male & Male,36.4,59.099999999999994,4.5,0.0,0.0
+Male & Male & Male,80.0,20.0,0.0,0.0,0.0
+Male & Male & unknown,60.0,40.0,0.0,0.0,0.0
+Male & Other,0.0,100.0,0.0,0.0,0.0
+Female & Female & unknown,100.0,0.0,0.0,0.0,0.0
+Female & Other,33.300000000000004,33.300000000000004,0.0,0.0,33.300000000000004
+Male & unknown & unknown,50.0,50.0,0.0,0.0,0.0
+Male & Male & unknown & unknown,0.0,0.0,100.0,0.0,0.0
+Male & Male & Male & unknown,100.0,0.0,0.0,0.0,0.0
+Other & unknown,0.0,100.0,0.0,0.0,0.0
+Female & Female & Male & Male,0.0,0.0,0.0,100.0,0.0
+Female & Female & Male & Male & Male,0.0,100.0,0.0,0.0,0.0
+Total,42.6,35.9,11.3,7.1,3.1

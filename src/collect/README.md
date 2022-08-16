@@ -170,22 +170,49 @@ Once the names are changed, these fields are added:
 
 and these fields are updated:
 
- * `relationshippax` (a list) -- as above, originally from `relationships`.
+ * `relationshipspax` (a list) -- as above, originally from `relationships`.
 
- * `relationshippaxslash` (a list) -- as above, originally from
+ * `relationshipspaxslash` (a list) -- as above, originally from
    `relationships`.
 
- * `relationshippaxamp` (a list) -- as above, originally from
+ * `relationshipspaxamp` (a list) -- as above, originally from
    `relationships`.
 
- * `relationshippair` (a list) -- as above, originally from
+ * `relationshipspair` (a list) -- as above, originally from
    `relationships`.
 
- * `relationshippairslash` (a list) -- as above, originally from
+ * `relationshipspairslash` (a list) -- as above, originally from
    `relationships`.
 
- * `relationshippairamp` (a list) -- as above, originally from
+ * `relationshipspairamp` (a list) -- as above, originally from
    `relationships`.
+
+And then those lists are repeated with the names substituted with
+species or gender:
+
+ * `relationshipspaxspecies` (a list) -- from `relationshipspax`.
+
+ * `relationshipspaxgender` (a list) -- from `relationshipspax`.
+
+ * `relationshipspaxslashspecies` (a list) -- from `relationshipspaxslash`.
+
+ * `relationshipspaxslashgender` (a list) -- from `relationshipspaxslash`.
+
+ * `relationshipspaxampspecies` (a list) -- from `relationshipspaxamp`.
+
+ * `relationshipspaxampgender` (a list) -- from `relationshipspaxamp`.
+
+ * `relationshipspairspecies` (a list) -- from `relationshipspair`.
+
+ * `relationshipspairgender` (a list) -- from `relationshipspair`.
+
+ * `relationshipspairslashspecies` (a list) -- from `relationshipspairslash`.
+
+ * `relationshipspairslashgender` (a list) -- from `relationshipspairslash`.
+
+ * `relationshipspairampspecies` (a list) -- from `relationshipspairamp`.
+
+ * `relationshipspairampgender` (a list) -- from `relationshipspairamp`.
 
 No libraries are required beyond a typical Python3 installation.
 
