@@ -858,6 +858,153 @@ class Ds9cast:
         'zek': 'Zek'
     }
 
+    # Species and gender of selected characters.
+    attribute_dict = {
+        "Darhe'el": ['Cardassian', 'Male'],
+        "Dukat's Children": ['Cardassian', 'unknown'],
+        "Dukat's Mother": ['Cardassian', 'Female'],
+        "K'Ehleyr": ['Klingon', 'Female'],
+        "Keiko O’Brien": ['Human', 'Female'],
+        "Kirayoshi O'Brien": ['Human', 'Male'],
+        "Kotan Pa'Dar": ['Cardassian', 'Male'],
+        "Miles O'Brien": ['Human', 'Male'],
+        "Molly O'Brien": ['Human', 'Female'],
+        "Omet'iklan": ["Jem'Hadar", 'Male'],
+        "Remata'Klan": ["Jem'Hadar", 'Male'],
+        "Rugal Pa'Dar": ['Cardassian', 'Male'],
+        'Aamin Marritza': ['Cardassian', 'Male'],
+        'Akellen Macet': ['Cardassian', 'Male'],
+        'Akorem Laan': ['Bajoran', 'Male'],
+        'Alexander Rozhenko': ['Human', 'Male'],
+        'Alynna Nechayev': ['Human', 'Female'],
+        'Amsha Bashir': ['Human', 'Female'],
+        'Arjin': ['Trill', 'Male'],
+        'Athra Dukat': ['Cardassian', 'Female'],
+        'Audrid Dax': ['Trill', 'Female'],
+        'Baby Changeling': ['Changeling', 'unknown'],
+        'Bareil Antos': ['Bajoran', 'Male'],
+        'Barin Troi': ['Betazoid', 'Male'],
+        'Benjamin Sisko': ['Betazoid', 'Male'],
+        'Broca': ['Cardassian', 'Male'],
+        'Brunt': ['Ferangi', 'Male'],
+        'Cal Hudson': ['Human', 'Male'],
+        'Captain Solok': ['Vulcan', 'Male'],
+        'Chalan Aroya': ['Bajoran', 'Female'],
+        'Chester': ['Cat', 'Male'],
+        'Corat Damar': ['Cardassian', 'Male'],
+        'Corbin Entek': ['Cardassian', 'Male'],
+        'Curzon Dax': ['Trill', 'Male'],
+        'Dax': ['sy', 'Other'],
+        'Dulmur': ['Human', 'Male'],
+        'Elim Garak': ['Cardassian', 'Male'],
+        'Emergency Medical Hologram Mark II': ['Hologram', 'Male'],
+        'Emony Dax': ['Trill', 'Female'],
+        'Enabran Tain': ['Cardassian', 'Male'],
+        'Entek': ['Cardassian', 'Male'],
+        'Eris': ['Vorta', 'Female'],
+        'Ezri Dax': ['Trill', 'Female'],
+        'Fala Trentin': ['Bajoran', 'Female'],
+        'Female Changeling': ['Changeling', 'Female'],
+        'Furel': ['Bajoran', 'Male'],
+        'Gaila': ['fc', 'Male'],
+        'Gariff Lucsly': ['Human', 'Male'],
+        'Gilora Rejal': ['Cardassian', 'Female'],
+        'Gowron': ['Klingon', 'Male'],
+        'Grilka': ['Klingon', 'Female'],
+        'Gul Jasad': ['Cardassian', 'Male'],
+        'Gul Marratt': ['Cardassian', 'Male'],
+        'Gul Revok': ['Cardassian', 'Male'],
+        'Gul Rusot': ['Cardassian', 'Male'],
+        'Gul Russol': ['Cardassian', 'Male'],
+        'Gul Zarale': ['Cardassian', 'Male'],
+        'Iliana Ghemor': ['Cardassian', 'Female'],
+        'Iloja of Prim': ['Cardassian', 'Male'],
+        'Ishka': ['Ferangi', 'Female'],
+        'Jack': ['Human', 'Male'],
+        'Jadzia Dax': ['Trill', 'Female'],
+        'Jake Sisko': ['Human', 'Male'],
+        'Jaro Essa': ['Bajoran', 'Male'],
+        'Jennifer Sisko': ['Human', 'Female'],
+        'Joran Dax': ['Trill', 'Male'],
+        'Joseph Sisko': ['Human', 'Male'],
+        'Judith Sisko': ['Human', 'Female'],
+        'Julian Bashir': ['Human', 'Male'],
+        'Kai Winn': ['Bajoran', 'Female'],
+        'Kang': ['Klingon', 'Male'],
+        'Kasidy Yates': ['Human', 'Male'],
+        'Keevan': ['Vorta', 'Male'],
+        'Kelas Parmak': ['Cardassian', 'Male'],
+        'Keldar': ['Ferangi', 'Male'],
+        'Kilana': ['Vorta', 'Female'],
+        'Kimara Cretak': ['Romulan', 'Female'],
+        'Kira Meru': ['Bajoran', 'Female'],
+        'Kira Nerys': ['Bajoran', 'Female'],
+        'Kira Pohl': ['Bajoran', 'Male'],
+        'Kira Reon': ['Bajoran', 'Male'],
+        'Kira Taban': ['Bajoran', 'Male'],
+        'Koloth': ['Klingon', 'Male'],
+        'Kor': ['Klingon', 'Male'],
+        'Kurn': ['Klingon', 'Male'],
+        'Laas': ['Changeling', 'Male'],
+        'Lauren': ['Human', 'Female'],
+        'Leeta': ['Bajoran', 'Female'],
+        'Lela Dax': ['Trill', 'Female'],
+        'Lenara Kahn': ['Trill', 'Female'],
+        'Lewis Zimmerman': ['Human', 'Male'],
+        'Leyton': ['Human', 'Male'],
+        'Li Nalas': ['Bajoran', 'Male'],
+        'Lisa Cusak': ['Human', 'Female'],
+        'Lupaza': ['Bajoran', 'Female'],
+        'Luther Sloan': ['Human', 'Male'],
+        'Lwaxana Troi': ['Betazoid', 'Female'],
+        'Martok': ['Klingon', 'Male'],
+        'Michael Eddington': ['Human', 'Male'],
+        'Mila Garak': ['Cardassian', 'Female'],
+        'Mora Pol': ['Bajoran', 'Male'],
+        'Morn': ['unknown', 'Male'],
+        'Mullibok': ['Bajoran', 'Male'],
+        'Natima Lang': ['Bajoran', 'Male'],
+        'Niala Damar': ['Cardassian', 'Female'],
+        'Nilani Kahn': ['Trill', 'Female'],
+        'Nog': ['Ferangi', 'Male'],
+        'Odo': ['Changeling', 'Male'],
+        'Opaka': ['Bajoran', 'Female'],
+        'Patrick': ['Human', 'Male'],
+        'Pel': ['Ferangi', 'Female'],
+        'Prinadora': ['Ferangi', 'Female'],
+        'Q': ['Q', 'Male'],
+        'Quark': ['Ferangi', 'Male'],
+        'Rebecca Sisko': ['Human', 'Female'],
+        'Rebecca Sullivan': ['Human', 'Female'],
+        'Richard Bashir': ['Human', 'Male'],
+        'Rom': ['Ferangi', 'Male'],
+        'Sakal Damar': ['Cardassian', 'Male'],
+        'Sarah Sisko': ['Human', 'Female'],
+        'Sarina Douglas': ['Human', 'Female'],
+        'Shakaar Edon': ['Bajoran', 'Male'],
+        'Sirella': ['Klingon', 'Female'],
+        'Skrain Dukat': ['Cardassian', 'Male'],
+        'Tahna Los': ['Bajoran', 'Male'],
+        'Tekeny Ghemor': ['Cardassian', 'Male'],
+        'Thomas Riker': ['Human', 'Male'],
+        'Thrax': ['Cardassian', 'Male'],
+        'Tobin Dax': ['Trill', 'Male'],
+        'Tora Naprem': ['Cardassian', 'Female'],
+        'Tora Ziyal': ['Multiple', 'Female'],
+        'Torias Dax': ['Trill', 'Male'],
+        'Vaatrik Pallra': ['Bajoran', 'Female'],
+        'Vash': ['Human', 'Female'],
+        'Verad': ['Trill', 'Male'],
+        'Vic Fontaine': ['Human', 'Male'],
+        'Vreenak': ['Romulan', 'Male'],
+        'Weyoun': ['Vorta', 'Male'],
+        'Winn Adami': ['Bajoran', 'Female'],
+        'Worf': ['Klingon', 'Male'],
+        'Yedrin Dax': ['Trill', 'Male'],
+        'Yelgrun': ['Vorta', 'Male'],
+        'Zek': ['Ferangi', 'Male'],
+        'Ziranne Idaris': ['Trill', 'Female']
+    }
 
     def __init__(self):
         self.unseen_set = set()
@@ -930,7 +1077,6 @@ class Ds9cast:
                     pair = 'non-cast/non-cast'
         return pair
 
-
     def normal_pair_list(self, pair_list):
         normal_s = set()
         for pair in pair_list:
@@ -939,15 +1085,109 @@ class Ds9cast:
         normal_l.sort()
         return normal_l
 
+    # Given a normalised name, return the character's species
+    def species(self, character):
+        if character in self.attribute_dict:
+            return self.attribute_dict[character][0]
+        else:
+            return 'unknown'
+
+    # Given a normalised name, return the character's gender
+    def gender(self, character):
+        if character in self.attribute_dict:
+            return self.attribute_dict[character][1]
+        else:
+            return 'unknown'
+
+    # We don't want these lists to be unique.
+    # We want then to classify the input list.
+    def species_list(self, name_list):
+        l = list()
+        for name in name_list:
+            l.append(self.species(name))
+        return l
+
+    def gender_list(self, name_list):
+        l = list()
+        for name in name_list:
+            l.append(self.gender(name))
+        return l
+
+    # Similarly for a relationships-style list
+    # We do want to normalise the relationship though
+    # eg:
+    #  input, a normalised pairing of:
+    #   Jack Citizen/Jane Citizen
+    #  codes to
+    #   Male/Female
+    #  normalises to sorted order of
+    #   Female/Mail
+    def gender_pair_list(self, pair_list):
+        l = list()
+        for pair in pair_list:
+            # Find relationship style
+            if pair.find('&') > -1:
+                style = 'amp'
+            elif pair.find('/') > -1:
+                style = 'slash'
+            else:
+                style = 'other'
+            # Cut relationship into a list of names
+            pair_l = [s.strip() for s in re.split('[/&]', pair)]
+            # Look up the pair's gender
+            gender_l = self.gender_list(pair_l)
+            # Normalise gender of the pair
+            gender_l.sort()
+            # Rebuild the pairing string
+            if style == 'amp':
+                pair = ' '.join(tween(gender_l, '&'))
+            elif style == 'slash':
+                pair = ''.join(tween(gender_l, '/'))
+            else:
+                print('Error: gender_relationships_list() unexpected input: {}'.format(pair))
+                pair = ' '.join(tween(gender_l, '?'))
+                print('       gender_relationships_list() returned: {}'.format(pair))
+            # Add them to the list
+            l.append(pair)
+        return l
+
+    def species_pair_list(self, pair_list):
+        l = list()
+        for pair in pair_list:
+            # Find relationship style
+            if pair.find('&') > -1:
+                style = 'amp'
+            elif pair.find('/') > -1:
+                style = 'slash'
+            else:
+                style = 'other'
+            # Cut relationship into a list of names
+            pair_l = [s.strip() for s in re.split('[/&]', pair)]
+            # Look up the pair's species
+            gender_l = self.species_list(pair_l)
+            # Normalise gender of the pair
+            gender_l.sort()
+            # Rebuild the pairing string
+            if style == 'amp':
+                pair = ' '.join(tween(gender_l, '&'))
+            elif style == 'slash':
+                pair = ''.join(tween(gender_l, '/'))
+            else:
+                print('Error: species_relationships_list() unexpected input: {}'.format(pair))
+                pair = ' '.join(tween(gender_l, '?'))
+                print('       species_relationships_list() returned: {}'.format(pair))
+            # Add them to the list
+            l.append(pair)
+        return l
 
     def unseen(self):
         return self.unseen_set
 
-
 # Collect command line arguments.
 def command_line_args():
     ap = argparse.ArgumentParser(description='Clean database',
-                                 epilog='Copyright © Wey Turner, 2022. ' +
+                                 epilog='Species and gender edition. ' +
+                                        'Copyright © Wey Turner, 2022. ' +
                                         'License <https://spdx.org/licenses/' +
                                         'GPL-2.0-only.html>')
     ap.add_argument('-i',
@@ -1002,6 +1242,30 @@ if __name__ == "__main__":
         if 'relationshipspairslash' in work:
             work['relationshipspairslash'] = ds9cast.normal_pair_list(work['relationshipspairslash'])
         work['cleandate'] = cleandate
+
+        # Add species and gender mappings
+        if 'charactersclean' in work:
+            work['characterscleanspecies'] = ds9cast.species_list(work['charactersclean'])
+            work['characterscleangender'] = ds9cast.gender_list(work['charactersclean'])
+        if 'relationshipspax' in work:
+            work['relationshipspaxspecies'] = ds9cast.species_list(work['relationshipspax'])
+            work['relationshipspaxgender'] = ds9cast.gender_list(work['relationshipspax'])
+        if 'relationshipspaxamp' in work:
+            work['relationshipspaxampspecies'] = ds9cast.species_list(work['relationshipspax'])
+            work['relationshipspaxampgender'] = ds9cast.gender_list(work['relationshipspax'])
+        if 'relationshipspaxslash' in work:
+            work['relationshipspaxslashspecies'] = ds9cast.species_list(work['relationshipspaxslash'])
+            work['relationshipspaxslashgender'] = ds9cast.gender_list(work['relationshipspaxslash'])
+        if 'relationshipspair' in work:
+            work['relationshipspairspecies'] = ds9cast.species_pair_list(work['relationshipspair'])
+            work['relationshipspairgender'] = ds9cast.gender_pair_list(work['relationshipspair'])
+        if 'relationshipspairamp' in work:
+            work['relationshipspairampspecies'] = ds9cast.species_pair_list(work['relationshipspairamp'])
+            work['relationshipspairampgender'] = ds9cast.gender_pair_list(work['relationshipspairamp'])
+        if 'relationshipspairslash' in work:
+            work['relationshipspairslashspecies'] = ds9cast.species_pair_list(work['relationshipspairslash'])
+            work['relationshipspairslashgender'] = ds9cast.gender_pair_list(work['relationshipspairslash'])
+
         database_out.append(work)
 
     # Write output database
