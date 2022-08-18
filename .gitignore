@@ -1,4 +1,10 @@
+# ao3-tagging/.gitignore
+# Made by src/misc/gitignore.sh
 
+# Particular to ao3-tagging.
+Untitled*.ipynb
+
+# Remainder of file from <https://www.toptal.com/developers/gitignore>.
 # Created by https://www.toptal.com/developers/gitignore/api/git,emacs,juypternotebooks,linux,macos,python,visualstudiocode,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=git,emacs,juypternotebooks,linux,macos,python,visualstudiocode,windows
 
