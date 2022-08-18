@@ -4,6 +4,16 @@
 #   ./gitignore.sh >> ../../.gitignore
 # adjusting the path as required.
 
+cat <<EOF
+# ao3-tagging/.gitignore
+# Made by src/misc/gitignore.sh
+
+# Particular to ao3-tagging.
+Untitled*.ipynb
+
+# Remainder of file from <https://www.toptal.com/developers/gitignore>.
+EOF
+
 CURLOPTS="--silent --location"
 
 # To see the list of product codes
