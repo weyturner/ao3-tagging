@@ -278,6 +278,26 @@ explode that field, as in the section done above.
 Reference: https://stackoverflow.com/questions/36004976/count-frequency-of-values-in-pandas-dataframe-column
 
 
+Remove non-cast rows
+--------------------
+
+```
+index = df[df['charactersclean'] == 'non-cast'].index
+df = df.drop(index)
+```
+
+Replace content in a cell
+-------------------------
+
+```
+for index, row in df.iterrows():
+    s = row['charactersclean']
+    # Alter content, replacing spaces with non-breaking spaces
+    s = s.replace(' ', '\N{NO-BREAK SPACE}')
+    df.at[index, 'charactersclean'] = s
+```
+
+
 Some reminders
 --------------
 
